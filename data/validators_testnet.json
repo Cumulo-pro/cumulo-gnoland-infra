@@ -22,11 +22,9 @@
     "rpc": "https://gnoland-test13-rpc.oshvank.xyz/",
     "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
     "tools_url": {
-      "Explorer": "https://explorer-gnoland.oshvank.xyz/",
       "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
     },
     "tools_desc": {
-      "Explorer": "Real-time validator explorer for the gno.land test13 testnet. Monitor validators, block production, and network health. Peer list updated every hour.",
       "Installation Guide": "Automatic installation script for gno.land test13 node setup with guided menus for all node operations."
     },
     "content": {
