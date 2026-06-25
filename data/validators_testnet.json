@@ -1,0 +1,61 @@
+  {
+    "name": "ITRocket",
+    "webservices": "https://itrocket.net/services/testnet/gno/",
+    "x": "itrocket_team",
+    "validatorlogo": "itrocket.png",
+    "explorer": "https://testnet.itrocket.net",
+    "rpc": "https://gno-testnet-rpc.itrocket.net",
+    "api": "https://gno-testnet-api.itrocket.net",
+    "peers": "g142k7zc2qym3c0u6jmkf6rv26llgr2f4nakmlmt@54.145.44.95:26656",
+    "tools_url": {
+      "Validator Analytics": "https://itrocket.net/services/testnet/gno/analytics/validators-performance/",
+      "Public RPC scanner": "https://itrocket.net/services/testnet/gno/public-rpc/",
+      "Proposal bot": "https://t.me/itrocket_mainnet_proposal_bot"
+    },
+    "tools_desc": {
+      "Validator Analytics": "Validator monitoring and performance analytics for Gnoland test13 infrastructure.",
+      "Public RPC scanner": "Curated public Gnoland test13 RPC endpoint directory with availability checks.",
+      "Proposal bot": "Telegram bot for real-time governance proposal notifications."
+    },
+    "content": {
+      "Installation Guide": "https://itrocket.net/services/testnet/gno/installation/"
+    }
+  },
+  {
+    "name": "OshVanK",
+    "webservices": "https://oshvank.xyz",
+    "x": "",
+    "validatorlogo": "oshvank.jpg",
+    "explorer": "https://explorer-gnoland.oshvank.xyz/",
+    "rpc": "https://gnoland-test13-rpc.oshvank.xyz/",
+    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
+    "tools_url": {
+      "Explorer": "https://explorer-gnoland.oshvank.xyz/",
+      "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
+    },
+    "tools_desc": {
+      "Explorer": "Real-time validator explorer for the gno.land test13 testnet. Monitor validators, block production, and network health. Peer list updated every hour.",
+      "Installation Guide": "Automatic installation script for gno.land test13 node setup with guided menus for all node operations."
+    },
+    "content": {
+      "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
+    }
+  },
+  {
+    "name": "UTSA",
+    "webservices": "https://utsa.gitbook.io/services/testnet/gno.land/",
+    "x": "lesnik_utsa",
+    "validatorlogo": "lesnik.jpg",
+    "explorer": "https://exp.utsa.tech/",
+    "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
+    "tools_url": {
+      "Snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot"
+    },
+    "tools_desc": {
+      "Snapshot": "Publicly accessible snapshots and installation guides for gno.land test13 node setup and recovery."
+    },
+    "content": {
+      "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
+    }
+  }
+]
