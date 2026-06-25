@@ -9,16 +9,6 @@
     "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
     "genesis": "https://server-8.itrocket.net/testnet/gnoland/genesis.json",
-    "tools_url": {
-      "Validator Analytics": "https://itrocket.net/services/testnet/gnoland/analytics/validators-performance/",
-      "Public RPC scanner": "https://itrocket.net/services/testnet/gnoland/public-rpc/",
-      "Proposal bot": "https://t.me/itrocket_mainnet_proposal_bot"
-    },
-    "tools_desc": {
-      "Validator Analytics": "Validator monitoring and performance analytics for Gnoland test13 infrastructure.",
-      "Public RPC scanner": "Curated public Gnoland test13 RPC endpoint directory with availability checks.",
-      "Proposal bot": "Telegram bot for real-time governance proposal notifications."
-    },
     "content": {
       "Installation Guide": "https://itrocket.net/services/testnet/gnoland/installation/"
     }
