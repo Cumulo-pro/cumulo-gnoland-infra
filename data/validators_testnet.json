@@ -18,7 +18,7 @@
     "webservices": "https://oshvank.xyz",
     "x": "",
     "validatorlogo": "oshvank.jpg",
-    "explorer": "",
+    "explorer": "https://explorer-gnoland.oshvank.xyz/",
     "rpc": "https://gnoland-test13-rpc.oshvank.xyz/",
     "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
     "tools_url": {
@@ -36,7 +36,7 @@
     "webservices": "https://utsa.gitbook.io/services/testnet/gno.land/",
     "x": "lesnik_utsa",
     "validatorlogo": "lesnik.jpg",
-    "explorer": "https://exp.utsa.tech/",
+    "explorer": "",
     "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
     "tools_url": {
       "Snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot"
