@@ -4,7 +4,7 @@
     "webservices": "https://itrocket.net/services/testnet/gnoland/",
     "x": "itrocket_team",
     "validatorlogo": "itrocket.png",
-    "explorer": "https://testnet.itrocket.net",
+    "explorer": "",
     "rpc": "https://gnoland-testnet-rpc.itrocket.net",
     "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
