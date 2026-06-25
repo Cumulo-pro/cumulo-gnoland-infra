@@ -1,4 +1,4 @@
-# Gno.land Test13 — Node & Validator Installation Guide
+# Gno.land Test13: Node & Validator Installation Guide
 
 > **Cumulo Infrastructure Runbook**
 > Network: `test-13` | Binary: `gnoland` | Chain: Gno.land Testnet
@@ -9,10 +9,10 @@
 
 Gno.land differs from standard Cosmos SDK chains in several important ways:
 
-- **Custom binary** — `gnoland` is compiled from the monorepo; no prebuilt releases.
-- **Config via CLI** — configuration is set with `gnoland config set`, not by editing TOML directly.
-- **Two separate identities** — the operator address (`g1...`) is your on-chain wallet; the consensus pubkey (`gpub1...`) belongs to the node validator key. These are completely independent.
-- **No `addrbook.json`** — peer discovery is handled differently from Cosmos SDK; peers are obtained via `net_info` RPC endpoint.
+- **Custom binary** - `gnoland` is compiled from the monorepo; no prebuilt releases.
+- **Config via CLI** - configuration is set with `gnoland config set`, not by editing TOML directly.
+- **Two separate identities** - the operator address (`g1...`) is your on-chain wallet; the consensus pubkey (`gpub1...`) belongs to the node validator key. These are completely independent.
+- **No `addrbook.json`** - peer discovery is handled differently from Cosmos SDK; peers are obtained via `net_info` RPC endpoint.
 
 ---
 
@@ -40,7 +40,7 @@ source ~/.bashrc
 
 ---
 
-## Step 1 — Compile gnoland from source
+## Step 1 - Compile gnoland from source
 
 ```bash
 cd $HOME
@@ -57,7 +57,7 @@ The binary is installed at `$GOPATH/bin/gnoland` (typically `$HOME/go/bin/gnolan
 
 ---
 
-## Step 2 — Create node directory
+## Step 2 - Create node directory
 
 ```bash
 mkdir -p $HOME/gnoland-test13/gnoland-data/config
@@ -67,7 +67,7 @@ cd $HOME/gnoland-test13
 
 ---
 
-## Step 3 — Download and verify genesis
+## Step 3 - Download and verify genesis
 
 ```bash
 wget -O gnoland-data/genesis.json \
@@ -80,7 +80,7 @@ shasum -a 256 gnoland-data/genesis.json
 
 ---
 
-## Step 4 — Initialize config and secrets
+## Step 4 - Initialize config and secrets
 
 ```bash
 # Initialize config
@@ -94,7 +94,7 @@ gnoland secrets init -data-dir gnoland-data/secrets
 
 ---
 
-## Step 5 — Configure network parameters
+## Step 5 - Configure network parameters
 
 ```bash
 cd $HOME/gnoland-test13
@@ -111,7 +111,7 @@ gnoland config set p2p.persistent_peers \
 
 ---
 
-## Step 6 — Create systemd service
+## Step 6 - Create systemd service
 
 ```bash
 sudo tee /etc/systemd/system/gnoland-test13.service << EOF
@@ -143,7 +143,7 @@ sudo systemctl enable --now gnoland-test13
 
 ---
 
-## Step 7 — Verify sync
+## Step 7 - Verify sync
 
 ```bash
 # Check service status
@@ -160,7 +160,7 @@ The node is fully synced when `catching_up` is `false`.
 
 ---
 
-## Step 8 — Create operator wallet
+## Step 8 - Create operator wallet
 
 ```bash
 gnokey add cumulo --home $HOME/gnoland-test13/gnoland-data/secrets
@@ -175,18 +175,18 @@ gnokey add cumulo --recover --home $HOME/gnoland-test13/gnoland-data/secrets
 
 ---
 
-## Step 9 — Get consensus pubkey
+## Step 9 - Get consensus pubkey
 
 ```bash
 gnoland secrets get ValidatorPrivateKey \
   -data-dir $HOME/gnoland-test13/gnoland-data/secrets
 ```
 
-Note the `pub_key` value (`gpub1...`) — you will need it for validator registration.
+Note the `pub_key` value (`gpub1...`) - you will need it for validator registration.
 
 ---
 
-## Step 10 — Register validator on-chain
+## Step 10 - Register validator on-chain
 
 ```bash
 gnokey maketx call \
