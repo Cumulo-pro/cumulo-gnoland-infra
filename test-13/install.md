@@ -216,12 +216,7 @@ Replace `<CONSENSUS_PUBKEY>` with the `gpub1...` value from Step 9.
 | Operator Address | `g1mndkvypn3339m6yvkyutal5hk6m2yeqp5d52ly` |
 | Consensus Address | `g1kxrqt5yrhtccs5zpghpc85t6fyxvpu3mlnk76e` |
 | Consensus PubKey | `gpub1pggj7ard9eg82cjtv4u52epjx56nzwgjyg9zqrvt4nx6rwyz08w9l09er9tgf8xsjqvs5radd89s7atequsxkq4563pc0l` |
-| Server | `cumveliamon-t` |
-| Public IP | `192.155.100.132` |
-| Node directory | `$HOME/gnoland-test13/` |
 | Binary | `$HOME/go/bin/gnoland` |
-| P2P Port | `26656` |
-| RPC Port | `26657` |
 | Validator profile | [on-chain](https://test13.testnets.gno.land/r/gnops/valopers:g1mndkvypn3339m6yvkyutal5hk6m2yeqp5d52ly) |
 
 ---
@@ -257,4 +252,3 @@ gnokey query bank/balances/g1mndkvypn3339m6yvkyutal5hk6m2yeqp5d52ly \
 | RPC (Onbloc) | `https://test13.rpc.onbloc.xyz:443` |
 | Explorer | `https://test13.testnets.gno.land` |
 | Genesis SHA256 | `56f56e135174feff9f93283d5ec7e4ec955cd5155108aff5009d4fd51c5adaf2` |
-| Cumulo Live Peers | `https://cumulo.pro` |
