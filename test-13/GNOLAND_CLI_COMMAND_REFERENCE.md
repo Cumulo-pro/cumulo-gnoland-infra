@@ -16,7 +16,7 @@ All commands assume:
 
 ---
 
-## ⚙️ systemd — Service Operations
+## ⚙️ systemd - Service Operations
 
 ### Reload systemd units
 
@@ -389,7 +389,7 @@ sudo systemctl daemon-reload
 rm -rf $HOME/gnoland-test13/gnoland-data/db
 ```
 
-### Remove everything (⚠️ irreversible — includes keys and secrets)
+### Remove everything (⚠️ irreversible - includes keys and secrets)
 
 ```bash
 rm -rf $HOME/gnoland-test13
