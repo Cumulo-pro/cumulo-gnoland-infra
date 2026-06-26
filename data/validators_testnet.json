@@ -53,7 +53,7 @@
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/celestia/",
       "validatorlogo": "cumulo.jpg",
-      "rpc": "https://celestia.cumulo.org.es",
+      "rpc": "https://gno.rpc.testnet.cumulo.me",
      "tools_url": {
         "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testent/peers"
      },
