@@ -12,13 +12,6 @@ This repository documents Cumulo's full infrastructure for **Test13**, the activ
 
 ---
 
-## Infrastructure
-
-| Role | Hostname | Network |
-|------|----------|---------|
-| Validator node | `cumveliamon-t` | Test13 |
-| RPC node | `cumvelia2` | Test13 |
-
 **Key identifiers**
 
 | Parameter | Value |
