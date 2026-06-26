@@ -1,4 +1,4 @@
-# 📊 Gnoland Test13 — Monitoring & Metrics
+# 📊 Gnoland Test13: Monitoring & Metrics
 
 This document describes Cumulo's monitoring stack for the Gnoland Test13 validator infrastructure, based on **OpenTelemetry Collector → Prometheus → Grafana**.
 
@@ -50,7 +50,7 @@ gnoland config set telemetry.service_name "gnoland-test13" -config-path gnoland-
 gnoland config set telemetry.service_instance_id "cumulo-validator-cumveliamon-t" -config-path gnoland-data/config/config.toml
 ```
 
-> ⚠️ **Important:** The `exporter_endpoint` must **not** include `http://`. gRPC does not use the HTTP prefix — using `http://localhost:4317` will cause the OTEL Collector to receive no data.
+> ⚠️ **Important:** The `exporter_endpoint` must **not** include `http://`. gRPC does not use the HTTP prefix - using `http://localhost:4317` will cause the OTEL Collector to receive no data.
 
 ### 2. OpenTelemetry Collector
 
@@ -127,11 +127,11 @@ sudo systemctl restart prometheus
 
 The dashboard covers:
 
-- **Consensus** — block height, round, voting power
-- **Mempool** — pending transactions, bytes
-- **P2P** — connected peers, inbound/outbound traffic
-- **Gas** — gas price histogram (`block_gas_price_hist`)
-- **Node info** — service name, version, instance ID
+- **Consensus** - block height, round, voting power
+- **Mempool** - pending transactions, bytes
+- **P2P** - connected peers, inbound/outbound traffic
+- **Gas** - gas price histogram (`block_gas_price_hist`)
+- **Node info** - service name, version, instance ID
 
 ---
 
@@ -204,4 +204,4 @@ curl -s http://148.72.141.245:8890/metrics | grep -v "^#" | head -20
 
 ---
 
-*Maintained by [Cumulo](https://cumulo.pro) — validator infrastructure for Gnoland Test13*
+*Maintained by [Cumulo](https://cumulo.pro) - validator infrastructure for Gnoland Test13*
