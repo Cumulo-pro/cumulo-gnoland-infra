@@ -1,4 +1,4 @@
-# 📊 Gnoland Test13: Monitoring & Metrics
+# 📊 Gnoland Test13 — Monitoring & Metrics
 
 This document describes Cumulo's monitoring stack for the Gnoland Test13 validator infrastructure, based on **OpenTelemetry Collector → Prometheus → Grafana**.
 
@@ -9,7 +9,7 @@ This document describes Cumulo's monitoring stack for the Gnoland Test13 validat
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    VALIDATOR NODE                           │
-│  cumveliamon-t (192.155.100.132)                           │
+│  cumveliamon-t                                             │
 │                                                             │
 │  gnoland-test13 ──OTLP──▶ OTEL Collector :4317            │
 │                            Prometheus metrics :8889         │
@@ -17,7 +17,7 @@ This document describes Cumulo's monitoring stack for the Gnoland Test13 validat
                                   │
 ┌─────────────────────────────────────────────────────────────┐
 │                      RPC NODE                               │
-│  cumvelia2 (148.72.141.245)                                │
+│  cumvelia2                                                 │
 │                                                             │
 │  gnoland-test13 ──OTLP──▶ OTEL Collector :4317            │
 │                            Prometheus metrics :8890         │
@@ -26,7 +26,6 @@ This document describes Cumulo's monitoring stack for the Gnoland Test13 validat
                                   ▼
                     ┌─────────────────────────┐
                     │   Central Prometheus    │
-                    │  54.39.128.229:9099     │
                     └────────────┬────────────┘
                                  │
                                  ▼
@@ -50,7 +49,7 @@ gnoland config set telemetry.service_name "gnoland-test13" -config-path gnoland-
 gnoland config set telemetry.service_instance_id "cumulo-validator-cumveliamon-t" -config-path gnoland-data/config/config.toml
 ```
 
-> ⚠️ **Important:** The `exporter_endpoint` must **not** include `http://`. gRPC does not use the HTTP prefix - using `http://localhost:4317` will cause the OTEL Collector to receive no data.
+> ⚠️ **Important:** The `exporter_endpoint` must **not** include `http://`. gRPC does not use the HTTP prefix — using `http://localhost:4317` will cause the OTEL Collector to receive no data.
 
 ### 2. OpenTelemetry Collector
 
@@ -97,7 +96,7 @@ sudo systemctl status otelcol-contrib
 
 ### 3. Central Prometheus
 
-**Endpoint:** `http://54.39.128.229:9099`
+**Endpoint:** `http://<PROMETHEUS_IP>:9099`
 
 Add the following scrape jobs to `prometheus.yml`:
 
@@ -106,11 +105,11 @@ scrape_configs:
 
   - job_name: 'gnoland-test13-cumveliamon-t'
     static_configs:
-      - targets: ['192.155.100.132:8889']
+      - targets: ['<VALIDATOR_NODE_IP>:8889']
 
   - job_name: 'gnoland-test13-cumvelia2'
     static_configs:
-      - targets: ['148.72.141.245:8890']
+      - targets: ['<RPC_NODE_IP>:8890']
 ```
 
 Reload after editing:
@@ -127,11 +126,11 @@ sudo systemctl restart prometheus
 
 The dashboard covers:
 
-- **Consensus** - block height, round, voting power
-- **Mempool** - pending transactions, bytes
-- **P2P** - connected peers, inbound/outbound traffic
-- **Gas** - gas price histogram (`block_gas_price_hist`)
-- **Node info** - service name, version, instance ID
+- **Consensus** — block height, round, voting power
+- **Mempool** — pending transactions, bytes
+- **P2P** — connected peers, inbound/outbound traffic
+- **Gas** — gas price histogram (`block_gas_price_hist`)
+- **Node info** — service name, version, instance ID
 
 ---
 
@@ -139,10 +138,10 @@ The dashboard covers:
 
 | Resource | URL |
 |----------|-----|
-| RPC (validator node) | `http://192.155.100.132:26657/status` |
+| RPC (validator node) | `http://<VALIDATOR_NODE_IP>:26657/status` |
 | RPC (public endpoint) | `https://gno.rpc.testnet.cumulo.me` |
-| OTEL metrics (validator) | `http://192.155.100.132:8889/metrics` |
-| OTEL metrics (RPC node) | `http://148.72.141.245:8890/metrics` |
+| OTEL metrics (validator) | `http://<VALIDATOR_NODE_IP>:8889/metrics` |
+| OTEL metrics (RPC node) | `http://<RPC_NODE_IP>:8890/metrics` |
 
 ---
 
@@ -168,10 +167,10 @@ Verify metrics are being received:
 
 ```bash
 # Validator node
-curl -s http://192.155.100.132:8889/metrics | grep -v "^#" | head -20
+curl -s http://<VALIDATOR_NODE_IP>:8889/metrics | grep -v "^#" | head -20
 
 # RPC node
-curl -s http://148.72.141.245:8890/metrics | grep -v "^#" | head -20
+curl -s http://<RPC_NODE_IP>:8890/metrics | grep -v "^#" | head -20
 ```
 
 ---
@@ -188,7 +187,7 @@ curl -s http://148.72.141.245:8890/metrics | grep -v "^#" | head -20
 
 **Target not appearing in Prometheus**
 - Verify firewall allows the metrics port: `sudo ufw allow 8889/tcp`
-- Test connectivity from Prometheus server: `curl -s http://192.155.100.132:8889/metrics | head -5`
+- Test connectivity from Prometheus server: `curl -s http://<VALIDATOR_NODE_IP>:8889/metrics | head -5`
 
 ---
 
@@ -204,4 +203,4 @@ curl -s http://148.72.141.245:8890/metrics | grep -v "^#" | head -20
 
 ---
 
-*Maintained by [Cumulo](https://cumulo.pro) - validator infrastructure for Gnoland Test13*
+*Maintained by [Cumulo](https://cumulo.pro) — validator infrastructure for Gnoland Test13*
