@@ -191,16 +191,4 @@ curl -s http://<RPC_NODE_IP>:8890/metrics | grep -v "^#" | head -20
 
 ---
 
-## Files in This Directory
-
-| File | Description |
-|------|-------------|
-| `README.md` | This document |
-| `otel-collector-config.yaml` | OTEL Collector config (validator node) |
-| `otel-collector-config-rpc.yaml` | OTEL Collector config (RPC node) |
-| `grafana-dashboard.json` | Grafana dashboard JSON for import |
-| `prometheus-scrape-jobs.yaml` | Prometheus scrape job snippets |
-
----
-
 *Maintained by [Cumulo](https://cumulo.pro) - validator infrastructure for Gnoland Test13*
