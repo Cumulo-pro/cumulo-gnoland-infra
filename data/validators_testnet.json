@@ -47,5 +47,18 @@
     "content": {
       "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
     }
-    }
-]
+    },
+     {
+      "name": "Cumulo",
+      "x": "Cumulo_pro",
+      "webservices": "https://cumulo.pro/celestia/",
+      "validatorlogo": "cumulo.jpg",
+      "rpc": "https://celestia.cumulo.org.es",
+     "tools_url": {
+        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testent/peers"
+     },
+      "tools_desc": {
+        "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API."
+      } 
+     }
+    ]
