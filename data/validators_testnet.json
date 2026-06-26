@@ -48,6 +48,19 @@
       "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
     }
     },
+    {
+      "name": "Tecnodes",
+      "webservices": "https://gno.satai.0xgen.online/",
+      "x": "TecnodesNetwork",
+      "validatorlogo": "tecnodes.jpg",
+      "explorer": "https://gno.satai.0xgen.online/",
+      "tools_url": {
+        "Register Validator": "https://gno.satai.0xgen.online/register"
+      },
+      "tools_desc": {
+         "Register Validator": "UI to register a new validator or edit profile (moniker, description, server type) directly from the explorer."
+      }
+}
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
