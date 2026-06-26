@@ -60,7 +60,7 @@
       "tools_desc": {
          "Register Validator": "UI to register a new validator or edit profile (moniker, description, server type) directly from the explorer."
       }
-}
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
