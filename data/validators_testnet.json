@@ -68,6 +68,18 @@
   "validatorlogo": "nodesync.jpg",
   "explorer": "https://gno-validator.nodesync.top/"
 },
+ {
+  "name": "MictoNode",
+  "webservices": "",
+  "x": "onurnft0",
+  "validatorlogo": "mictonode.jpg",
+  "tools_url": {
+    "Enchanted Tenderduty": "https://github.com/MictoNode/enchanted-tenderduty"
+  },
+  "tools_desc": {
+    "Enchanted Tenderduty": "Forked and extended Tenderduty monitor with native gno.land support, allowing simultaneous monitoring of Cosmos and Gnoland nodes from a single binary. Adds Pushover as an alert sink for Do Not Disturb-bypassing mobile alerts."
+  }
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
