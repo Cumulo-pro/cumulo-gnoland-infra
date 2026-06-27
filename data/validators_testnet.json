@@ -61,6 +61,13 @@
          "Register Validator": "UI to register a new validator or edit profile (moniker, description, server type) directly from the explorer."
       }
 },
+    {
+  "name": "NODESYNC",
+  "webservices": "https://gno-validator.nodesync.top/",
+  "x": "nodesync_top",
+  "validatorlogo": "nodesync.jpg",
+  "explorer": "https://gno-validator.nodesync.top/"
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
