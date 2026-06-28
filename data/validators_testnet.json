@@ -6,6 +6,7 @@
     "validatorlogo": "itrocket.png",
     "explorer": "",
     "rpc": "https://gnoland-testnet-rpc.itrocket.net",
+    "snapshot": "https://itrocket.net/services/testnet/gnoland/",
     "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
     "genesis": "https://server-8.itrocket.net/testnet/gnoland/genesis.json",
@@ -39,7 +40,7 @@
     "explorer": "",
     "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
     "tools_url": {
-    "Snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
     "Telegram Bot": "https://t.me/UTSAGNOTest13Bot"
       },
       "tools_desc": {
