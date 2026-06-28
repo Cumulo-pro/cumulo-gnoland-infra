@@ -82,17 +82,32 @@
     "Enchanted Tenderduty": "Forked and extended Tenderduty monitor with native gno.land support, allowing simultaneous monitoring of Cosmos and Gnoland nodes from a single binary. Adds Pushover as an alert sink for Do Not Disturb-bypassing mobile alerts."
   }
 },
+{
+  "name": "CoreNode",
+  "webservices": "https://services.corenodehq.xyz/testnet/gno-land-13",
+  "x": "corenodeHQ",
+  "validatorlogo": "corenode.jpg",
+  "snapshot": "https://services.corenodehq.xyz/testnet/gno-land-13/snap",
+  "tools_url": {},
+  "tools_desc": {},
+  "content": {
+    "Installation Guide": "https://services.corenodehq.xyz/testnet/gno-land-13"
+  }
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/celestia/",
       "validatorlogo": "cumulo.jpg",
       "rpc": "https://gno.rpc.testnet.cumulo.me",
+      "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
      "tools_url": {
-        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testent/peers"
+        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testent/peers",
+        "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
      },
       "tools_desc": {
-        "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API."
+        "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+        "Monitoring": "Grafana monitoring dashboard for Gnoland test13 validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint"
       } 
      }
     ]
