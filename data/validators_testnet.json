@@ -39,11 +39,13 @@
     "explorer": "",
     "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
     "tools_url": {
-      "Snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot"
-    },
-    "tools_desc": {
-      "Snapshot": "Publicly accessible snapshots and installation guides for gno.land test13 node setup and recovery."
-    },
+    "Snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
+    "Telegram Bot": "https://t.me/UTSAGNOTest13Bot"
+      },
+      "tools_desc": {
+        "Snapshot": "Publicly accessible snapshots and installation guides for gno.land test13 node setup and recovery.",
+        "Telegram Bot": "Telegram helper bot for GNO Test13 validators with network status, live peers, active and candidate validator overviews, public RPC status, snapshots and guides in RU/ENG. Validator monitoring features (missed blocks, uptime, alerts) coming soon."
+      },
     "content": {
       "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
     }
