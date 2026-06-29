@@ -70,6 +70,12 @@
   "x": "nodesync_top",
   "validatorlogo": "nodesync.jpg",
   "explorer": "https://gno-validator.nodesync.top/"
+  "tools_url": {
+    "Validator Bot": "https://t.me/GnoValidatorBot"
+  },
+  "tools_desc": {
+    "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland test13. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
+  }
 },
  {
   "name": "MictoNode",
