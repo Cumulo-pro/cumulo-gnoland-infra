@@ -39,12 +39,11 @@
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "",
     "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
+     "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
     "tools_url": {
-    "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
     "Telegram Bot": "https://t.me/UTSAGNOTest13Bot"
       },
       "tools_desc": {
-        "Snapshot": "Publicly accessible snapshots and installation guides for gno.land test13 node setup and recovery.",
         "Telegram Bot": "Telegram helper bot for GNO Test13 validators with network status, live peers, active and candidate validator overviews, public RPC status, snapshots and guides in RU/ENG. Validator monitoring features (missed blocks, uptime, alerts) coming soon."
       },
     "content": {
@@ -69,7 +68,7 @@
   "webservices": "https://gno-validator.nodesync.top/",
   "x": "nodesync_top",
   "validatorlogo": "nodesync.jpg",
-  "explorer": "https://gno-validator.nodesync.top/"
+  "explorer": "https://gno-validator.nodesync.top/",
   "tools_url": {
     "Validator Bot": "https://t.me/GnoValidatorBot"
   },
@@ -119,7 +118,7 @@
       "rpc": "https://gno.rpc.testnet.cumulo.me",
       "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
      "tools_url": {
-        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testent/peers",
+        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
         "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
      },
       "tools_desc": {
