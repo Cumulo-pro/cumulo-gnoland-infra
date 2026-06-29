@@ -113,7 +113,7 @@
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
-      "webservices": "https://cumulo.pro/celestia/",
+      "webservices": "https://cumulo.pro/services/gnoland_testnet/",
       "validatorlogo": "cumulo.jpg",
       "rpc": "https://gno.rpc.testnet.cumulo.me",
       "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
