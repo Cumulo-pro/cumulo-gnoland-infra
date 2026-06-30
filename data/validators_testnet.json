@@ -110,6 +110,19 @@
     "Installation Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13"
   }
 },
+    {
+  "name": "Tanjira",
+  "webservices": "https://gnopulse.xyz/",
+  "x": "TanjiraPr",
+  "validatorlogo": "tanjira.jpg",
+  "explorer": "https://gnopulse.xyz/",
+  "tools_url": {
+    "GnoPulse Explorer": "https://gnopulse.xyz/"
+  },
+  "tools_desc": {
+    "GnoPulse Explorer": "Block explorer for gno.land test13 built for both developers and end users."
+  }
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
