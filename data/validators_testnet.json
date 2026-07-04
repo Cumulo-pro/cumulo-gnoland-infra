@@ -123,6 +123,21 @@
     "GnoPulse Explorer": "Block explorer for gno.land test13 built for both developers and end users."
   }
 },
+  {
+  "name": "Grand Valley",
+  "webservices": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet",
+  "x": "bacvalley",
+  "validatorlogo": "grandvalley.png",
+  "tools_url": {
+    "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+  },
+  "tools_desc": {
+    "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gno.land Test13 full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, and node backup."
+  },
+  "content": {
+    "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+  }
+},
      {
       "name": "Cumulo",
       "x": "Cumulo_pro",
