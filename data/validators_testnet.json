@@ -94,8 +94,12 @@
   "x": "corenodeHQ",
   "validatorlogo": "corenode.jpg",
   "snapshot": "https://services.corenodehq.xyz/testnet/gno-land-13/snap",
-  "tools_url": {},
-  "tools_desc": {},
+  "tools_url": {
+    "Alarm Bot": "https://t.me/corenodemasterbot"
+  },
+  "tools_desc": {
+    "Alarm Bot": "Telegram bot for Gnoland test13 validator alerts and monitoring notifications."
+  },
   "content": {
     "Installation Guide": "https://services.corenodehq.xyz/testnet/gno-land-13"
   }
