@@ -142,7 +142,19 @@
     "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
   }
 },
-     {
+   {
+  "name": "AviaOne",
+  "webservices": "https://aviaone.com/blockchains-service/dymension-dymension_1100-1.html",
+  "x": "avia_one",
+  "validatorlogo": "aviaone.jpg",
+  "tools_url": {
+    "GnoDuty": "https://github.com/AviaOne/GnoDuty"
+  },
+  "tools_desc": {
+    "GnoDuty": "Real-time Gno.land (TM2) validator monitor, hard fork of Tenderduty adapted for Gnoland. Includes fix for false jailed alerts caused by RPC timeouts: preserves previous bonded state on query failure instead of resetting to false."
+  }
+},       
+ {
       "name": "Cumulo",
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/services/gnoland_testnet/",
