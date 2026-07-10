@@ -44,7 +44,7 @@
     "Telegram Bot": "https://t.me/UTSAGNOTest13Bot"
       },
       "tools_desc": {
-        "Telegram Bot": "Telegram helper bot for GNO Test13 validators with network status, live peers, active and candidate validator overviews, public RPC status, snapshots and guides in RU/ENG. Validator monitoring features (missed blocks, uptime, alerts) coming soon."
+            "Telegram Bot": "Telegram helper bot for GNO Test13 validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts with configurable thresholds and cooldowns, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
       },
     "content": {
       "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
