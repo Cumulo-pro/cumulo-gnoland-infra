@@ -132,6 +132,7 @@
   "webservices": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet",
   "x": "bacvalley",
   "validatorlogo": "grandvalley.png",
+  "rpc": "https://lightnode-rpc-gnoland.grandvalleys.com",
   "tools_url": {
     "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
   },
