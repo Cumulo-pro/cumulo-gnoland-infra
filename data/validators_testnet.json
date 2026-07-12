@@ -154,7 +154,24 @@
   "tools_desc": {
     "GnoDuty": "Real-time Gno.land (TM2) validator monitor, hard fork of Tenderduty adapted for Gnoland. Includes fix for false jailed alerts caused by RPC timeouts: preserves previous bonded state on query failure instead of resetting to false."
   }
-},       
+},
+ {
+  "name": "Cogwheel",
+  "webservices": "https://thespectra.io/gnoland-testnet",
+  "x": "cogwheel_val",
+  "validatorlogo": "cogwheel_val.jpg",
+  "explorer": "https://thespectra.io/gnoland-testnet",
+  "tools_url": {
+    "Spectra Explorer": "https://thespectra.io/gnoland-testnet",
+    "Spectra Gnoland Indexer": "https://github.com/Cogwheel-Validator/spectra-gnoland-indexer",
+    "Spectra Assets": "https://github.com/Cogwheel-Validator/spectra-assets"
+  },
+  "tools_desc": {
+    "Spectra Explorer": "Block explorer for Gnoland test13 with transaction history, daily active users, fee charts, validator data, realm inspection, and wallet support.",
+    "Spectra Gnoland Indexer": "Open source indexer for Gnoland, available for developers building explorers or data applications on top of the network.",
+    "Spectra Assets": "Repository of validator logos and metadata for Gnoland, open for pull requests from validators wanting to add or update their profile assets."
+  }
+},
  {
       "name": "Cumulo",
       "x": "Cumulo_pro",
