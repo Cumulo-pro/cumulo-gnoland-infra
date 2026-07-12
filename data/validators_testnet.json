@@ -184,6 +184,13 @@
     "GnoNym": "UI for gno.land's official name registry (r/sys/namereg/v1). Live on-chain availability check, one-click registration via Adena, profile editor for DisplayName/Bio/Homepage/Avatar, and name-to-address resolver."
   }
 },
+    {
+  "name": "Zeycanode",
+  "webservices": "https://explorer-gnoland.zeycanode.com/",
+  "x": "DigitalMinion2",
+  "validatorlogo": "zeycanode.jpg",
+  "explorer": "https://explorer-gnoland.zeycanode.com/"
+},
  {
       "name": "Cumulo",
       "x": "Cumulo_pro",
