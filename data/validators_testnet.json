@@ -191,6 +191,19 @@
   "validatorlogo": "zeycanode.jpg",
   "explorer": "https://explorer-gnoland.zeycanode.com/"
 },
+    {
+  "name": "Indonode",
+  "webservices": "https://explorer.indonode.net/gnotest",
+  "x": "Fluxen_ops",
+  "validatorlogo": "indonodev.png",
+  "explorer": "https://explorer.indonode.net/gnotest",
+  "tools_url": {
+    "Live Peers": "https://explorer.indonode.net/gnotest"
+  },
+  "tools_desc": {
+    "Live Peers": "Peer scoring tool to help find high-quality peers for reliable connections, alongside block counts, transaction data, and validator uptime tracking."
+  }
+},
  {
       "name": "Cumulo",
       "x": "Cumulo_pro",
