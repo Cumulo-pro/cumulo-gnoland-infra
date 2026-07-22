@@ -210,7 +210,14 @@
   "x": "IBSvalidator",
   "validatorlogo": "ibs.jpg",
   "explorer": "https://delve.ibs.team/"
-},,
+}, 
+{
+  "name": "RuangNode",
+  "webservices": "https://services.ruangnode.com/",
+  "x": "ruangnode",
+  "validatorlogo": "ruangnode.jpg",
+  "explorer": "https://gnolens.ruangnode.com/"
+},
  {
       "name": "Cumulo",
       "x": "Cumulo_pro",
