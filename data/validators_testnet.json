@@ -205,6 +205,13 @@
   }
 },
  {
+  "name": "IBS",
+  "webservices": "https://ibs.team/",
+  "x": "IBSvalidator",
+  "validatorlogo": "ibs.jpg",
+  "explorer": "https://delve.ibs.team/"
+},,
+ {
       "name": "Cumulo",
       "x": "Cumulo_pro",
       "webservices": "https://cumulo.pro/services/gnoland_testnet/",
