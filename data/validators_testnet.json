@@ -224,5 +224,21 @@
     "tools_desc": {
       "Delve Explorer": "Block explorer for Gnoland Topaz powered by a dedicated indexer. Fast history lookups and real on-chain data."
     }
+  },
+  {
+  "name": "Cumulo",
+  "x": "Cumulo_pro",
+  "webservices": "https://cumulo.pro/services/gnoland_testnet/",
+  "validatorlogo": "cumulo.jpg",
+  "rpc": "https://gno.rpc.testnet.cumulo.me",
+  "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
+  "tools_url": {
+    "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
+    "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
+  },
+  "tools_desc": {
+    "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+    "Monitoring": "Grafana monitoring dashboard for Gnoland test13 validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint."
   }
+}
 ]
