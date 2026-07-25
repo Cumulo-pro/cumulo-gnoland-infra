@@ -1,237 +1,228 @@
 [
-{
+  {
     "name": "ITRocket",
     "webservices": "https://itrocket.net/services/testnet/gnoland/",
     "x": "itrocket_team",
     "validatorlogo": "itrocket.png",
     "explorer": "",
-    "rpc": "https://gnoland-testnet-rpc.itrocket.net",
+    "rpc": "",
     "snapshot": "https://itrocket.net/services/testnet/gnoland/",
-    "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
-    "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
-    "genesis": "https://server-8.itrocket.net/testnet/gnoland/genesis.json",
+    "peers": "",
+    "seed": "",
+    "genesis": "",
     "content": {
       "Installation Guide": "https://itrocket.net/services/testnet/gnoland/installation/"
     }
-},
+  },
   {
     "name": "OshVanK",
     "webservices": "https://oshvank.xyz",
     "x": "",
     "validatorlogo": "oshvank.png",
-    "explorer": "https://explorer-gnoland.oshvank.xyz/",
-    "rpc": "https://gnoland-test13-rpc.oshvank.xyz/",
-    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
-    "tools_url": {
-      "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
-    },
-    "tools_desc": {
-      "Installation Guide": "Automatic installation script for gno.land test13 node setup with guided menus for all node operations."
-    },
-    "content": {
-      "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
-    }
+    "explorer": "",
+    "rpc": "",
+    "peers": "",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {}
   },
   {
     "name": "UTSA",
     "webservices": "https://utsa.gitbook.io/services/testnet/gno.land/",
     "x": "lesnik_utsa",
-    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
+    "validatorlogo": "lesnik.jpg",
     "explorer": "https://exp.gno.utsa.tech/",
-    "valoper": "https://test13.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
-     "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
+    "valoper": "https://topaz.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land",
     "tools_url": {
-    "Telegram Bot": "https://t.me/UTSAGNOTest13Bot"
-      },
-      "tools_desc": {
-            "Telegram Bot": "Telegram helper bot for GNO Test13 validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts with configurable thresholds and cooldowns, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
-      },
-    "content": {
-      "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land/"
-    }
+      "Telegram Bot": "https://t.me/UTSAGNOBot"
     },
-    {
-      "name": "Tecnodes",
-      "webservices": "https://gno.satai.0xgen.online/",
-      "x": "TecnodesNetwork",
-      "validatorlogo": "tecnodes.jpg",
-      "explorer": "https://gnox.xyz/",
-      "tools_url": {
-        "Register Validator": "https://gnox.xyz/register-validator"
-      },
-      "tools_desc": {
-         "Register Validator": "UI to register a new validator or edit profile (moniker, description, server type) directly from the explorer."
-      }
-},
-    {
-  "name": "NODESYNC",
-  "webservices": "https://gno-validator.nodesync.top/",
-  "x": "nodesync_top",
-  "validatorlogo": "nodesync.jpg",
-  "explorer": "https://gno-validator.nodesync.top/",
-  "tools_url": {
-    "Validator Bot": "https://t.me/GnoValidatorBot"
+    "tools_desc": {
+      "Telegram Bot": "Telegram helper bot for Gnoland Topaz validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts with configurable thresholds and cooldowns, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
+    },
+    "content": {
+      "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land",
+      "Installation Guide (RU)": "https://teletype.in/@lesnik13utsa/65wu7A2kPfo"
+    }
   },
-  "tools_desc": {
-    "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland test13. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
-  }
-},
- {
-  "name": "MictoNode",
-  "webservices": "",
-  "x": "onurnft0",
-  "validatorlogo": "mictonode.jpg",
-  "tools_url": {
-    "Enchanted Tenderduty": "https://github.com/MictoNode/enchanted-tenderduty"
-  },
-  "tools_desc": {
-    "Enchanted Tenderduty": "Forked and extended Tenderduty monitor with native gno.land support, allowing simultaneous monitoring of Cosmos and Gnoland nodes from a single binary. Adds Pushover as an alert sink for Do Not Disturb-bypassing mobile alerts."
-  }
-},
-{
-  "name": "CoreNode",
-  "webservices": "https://services.corenodehq.xyz/testnet/gno-land-13",
-  "x": "corenodeHQ",
-  "validatorlogo": "corenode.jpg",
-  "snapshot": "https://services.corenodehq.xyz/testnet/gno-land-13/snap",
-  "tools_url": {
-    "Alarm Bot": "https://t.me/corenodemasterbot"
-  },
-  "tools_desc": {
-    "Alarm Bot": "Telegram bot for Gnoland test13 validator alerts and monitoring notifications."
-  },
-  "content": {
-    "Installation Guide": "https://services.corenodehq.xyz/testnet/gno-land-13"
-  }
-},
-    {
-  "name": "LuckyStar",
-  "webservices": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13",
-  "x": "",
-  "validatorlogo": "luckystar.jpg",
-  "snapshot": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13/snapshot",
-  "content": {
-    "Installation Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13"
-  }
-},
-    {
-  "name": "Tanjira",
-  "webservices": "https://gnopulse.xyz/",
-  "x": "TanjiraPr",
-  "validatorlogo": "tanjira.jpg",
-  "explorer": "https://gnopulse.xyz/",
-  "tools_url": {
-    "GnoPulse Explorer": "https://gnopulse.xyz/"
-  },
-  "tools_desc": {
-    "GnoPulse Explorer": "Block explorer for gno.land test13 built for both developers and end users."
-  }
-},
   {
-  "name": "Grand Valley",
-  "webservices": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet",
-  "x": "bacvalley",
-  "validatorlogo": "grandvalley.png",
-  "rpc": "https://lightnode-rpc-gnoland.grandvalleys.com",
-  "tools_url": {
-    "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+    "name": "Tecnodes",
+    "webservices": "",
+    "x": "TecnodesNetwork",
+    "validatorlogo": "tecnodes.jpg",
+    "explorer": "",
+    "tools_url": {},
+    "tools_desc": {}
   },
-  "tools_desc": {
-    "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gno.land Test13 full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, and node backup."
+  {
+    "name": "NODESYNC",
+    "webservices": "https://gno-validator.nodesync.top/",
+    "x": "nodesync_top",
+    "validatorlogo": "nodesync.jpg",
+    "explorer": "https://gno-validator.nodesync.top/",
+    "tools_url": {
+      "Validator Bot": "https://t.me/GnoValidatorBot"
+    },
+    "tools_desc": {
+      "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland Topaz. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
+    }
   },
-  "content": {
-    "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+  {
+    "name": "MictoNode",
+    "webservices": "",
+    "x": "onurnft0",
+    "validatorlogo": "mictonode.jpg",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
+    "name": "CoreNode",
+    "webservices": "https://services.corenodehq.xyz/testnet/gnoland-topaz",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "explorer": "https://explorer.corenodehq.xyz/gnoland-topaz",
+    "rpc": "https://gnoland-topaz-rpc.corenodehq.xyz/",
+    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-topaz/snap",
+    "tools_url": {
+      "Alarm Bot": "https://t.me/corenodemasterbot"
+    },
+    "tools_desc": {
+      "Alarm Bot": "Telegram bot for Gnoland Topaz validator alerts and monitoring notifications."
+    },
+    "content": {
+      "Installation Guide": "https://services.corenodehq.xyz/testnet/gnoland-topaz"
+    }
+  },
+  {
+    "name": "LuckyStar",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "luckystar.jpg",
+    "snapshot": "",
+    "content": {}
+  },
+  {
+    "name": "Cumulo",
+    "x": "Cumulo_pro",
+    "webservices": "https://cumulo.pro/services/gnoland_testnet/",
+    "validatorlogo": "cumulo.jpg",
+    "rpc": "https://gno.rpc.testnet.cumulo.me",
+    "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
+    "tools_url": {
+      "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
+      "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
+    },
+    "tools_desc": {
+      "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+      "Monitoring": "Grafana monitoring dashboard for Gnoland Topaz validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint."
+    }
+  },
+  {
+    "name": "Tanjira",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "tanjira.jpg",
+    "explorer": "",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
+    "name": "Grand Valley",
+    "webservices": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet",
+    "x": "bacvalley",
+    "validatorlogo": "grandvalley.png",
+    "rpc": "https://lightnode-rpc-gnoland.grandvalleys.com/",
+    "websocket": "wss://lightnode-rpc-gnoland.grandvalleys.com/websocket",
+    "peers": "g1yzrxmspjavrkv64hl958d7xrc9vj2w9h0jefhs@peer-gnoland.grandvalleys.com:18656",
+    "valoper": "https://topaz.testnets.gno.land/r/gnops/valopers:g19sqhfxveuzdmf244xsslmwd638l9mjcdq76hym",
+    "tools_url": {
+      "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+    },
+    "tools_desc": {
+      "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gnoland Topaz full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, and node backup."
+    },
+    "content": {
+      "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
+    }
+  },
+  {
+    "name": "AviaOne",
+    "webservices": "https://aviaone.com/blockchains-service/dymension-dymension_1100-1.html",
+    "x": "avia_one",
+    "validatorlogo": "aviaone.jpg",
+    "tools_url": {
+      "GnoDuty": "https://github.com/AviaOne/GnoDuty"
+    },
+    "tools_desc": {
+      "GnoDuty": "Real-time Gnoland (TM2) validator monitor, hard fork of Tenderduty adapted for Gnoland. Supports Topaz (chain: topaz-1, RPC: https://rpc.topaz.testnets.gno.land/). Includes fix for false jailed alerts caused by RPC timeouts."
+    }
+  },
+  {
+    "name": "Cogwheel",
+    "webservices": "",
+    "x": "cogwheel_val",
+    "validatorlogo": "cogwheel_val.jpg",
+    "explorer": "",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
+    "name": "coinsspor",
+    "webservices": "https://github.com/coinsspor/gnoland-topaz-guide",
+    "x": "coinsspor",
+    "validatorlogo": "coinsspor.jpg",
+    "explorer": "https://gnolandexplorer.coinsspor.com/",
+    "tools_url": {
+      "GnoNym": "https://gnonym.coinsspor.com/",
+      "Migration Guide": "https://github.com/coinsspor/gnoland-topaz-guide"
+    },
+    "tools_desc": {
+      "GnoNym": "UI for gno.land's official name registry (r/sys/namereg/v1). Live on-chain availability check, one-click registration via Adena, profile editor for DisplayName/Bio/Homepage/Avatar, and name-to-address resolver.",
+      "Migration Guide": "Complete Test13 to Topaz migration guide (EN/TR) covering seeds vs persistent_peers, gas limits, state reset, AppHash crash recovery, and common pitfalls."
+    }
+  },
+  {
+    "name": "Zeycanode",
+    "webservices": "",
+    "x": "DigitalMinion2",
+    "validatorlogo": "zeycanode.jpg",
+    "explorer": "",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
+    "name": "NodeRuneR",
+    "webservices": "https://services.noderuner.xyz/gno.land-topaz",
+    "x": "",
+    "validatorlogo": "noderuner.jpg",
+    "explorer": "https://explorer-gno.noderuner.xyz/",
+    "rpc": "https://topaz-gnoland-rpc.noderuner.xyz/",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {
+      "Installation Guide": "https://services.noderuner.xyz/gno.land-topaz"
+    }
+  },
+  {
+    "name": "Indonode",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "indonode.jpg",
+    "explorer": "https://explorer.indonode.net/gnotopaz",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
+    "name": "IBS",
+    "webservices": "https://delve.ibs.team/",
+    "x": "",
+    "validatorlogo": "ibs.jpg",
+    "explorer": "https://delve.ibs.team/",
+    "tools_url": {
+      "Delve Explorer": "https://delve.ibs.team/"
+    },
+    "tools_desc": {
+      "Delve Explorer": "Block explorer for Gnoland Topaz powered by a dedicated indexer. Fast history lookups and real on-chain data."
+    }
   }
-},
-   {
-  "name": "AviaOne",
-  "webservices": "https://aviaone.com/blockchains-service/dymension-dymension_1100-1.html",
-  "x": "avia_one",
-  "validatorlogo": "aviaone.jpg",
-  "tools_url": {
-    "GnoDuty": "https://github.com/AviaOne/GnoDuty"
-  },
-  "tools_desc": {
-    "GnoDuty": "Real-time Gno.land (TM2) validator monitor, hard fork of Tenderduty adapted for Gnoland. Includes fix for false jailed alerts caused by RPC timeouts: preserves previous bonded state on query failure instead of resetting to false."
-  }
-},
- {
-  "name": "Cogwheel",
-  "webservices": "https://thespectra.io/gnoland-testnet",
-  "x": "cogwheel_val",
-  "validatorlogo": "cogwheel_val.jpg",
-  "explorer": "https://thespectra.io/gnoland-testnet",
-  "tools_url": {
-    "Spectra Explorer": "https://thespectra.io/gnoland-testnet",
-    "Spectra Gnoland Indexer": "https://github.com/Cogwheel-Validator/spectra-gnoland-indexer",
-    "Spectra Assets": "https://github.com/Cogwheel-Validator/spectra-assets"
-  },
-  "tools_desc": {
-    "Spectra Explorer": "Block explorer for Gnoland test13 with transaction history, daily active users, fee charts, validator data, realm inspection, and wallet support.",
-    "Spectra Gnoland Indexer": "Open source indexer for Gnoland, available for developers building explorers or data applications on top of the network.",
-    "Spectra Assets": "Repository of validator logos and metadata for Gnoland, open for pull requests from validators wanting to add or update their profile assets."
-  }
-},
-{
-  "name": "coinsspor",
-  "webservices": "https://github.com/coinsspor/Story-Aeneid",
-  "x": "coinsspor",
-  "validatorlogo": "coinsspor.jpg",
-  "tools_url": {
-    "GnoNym": "https://gnonym.coinsspor.com/"
-  },
-  "tools_desc": {
-    "GnoNym": "UI for gno.land's official name registry (r/sys/namereg/v1). Live on-chain availability check, one-click registration via Adena, profile editor for DisplayName/Bio/Homepage/Avatar, and name-to-address resolver."
-  }
-},
-    {
-  "name": "Zeycanode",
-  "webservices": "https://explorer-gnoland.zeycanode.com/",
-  "x": "DigitalMinion2",
-  "validatorlogo": "zeycanode.jpg",
-  "explorer": "https://explorer-gnoland.zeycanode.com/"
-},
-    {
-  "name": "Indonode",
-  "webservices": "https://explorer.indonode.net/gnotest",
-  "x": "Fluxen_ops",
-  "validatorlogo": "indonodev.png",
-  "explorer": "https://explorer.indonode.net/gnotest",
-  "tools_url": {
-    "Live Peers": "https://explorer.indonode.net/gnotest"
-  },
-  "tools_desc": {
-    "Live Peers": "Peer scoring tool to help find high-quality peers for reliable connections, alongside block counts, transaction data, and validator uptime tracking."
-  }
-},
- {
-  "name": "IBS",
-  "webservices": "https://ibs.team/",
-  "x": "IBSvalidator",
-  "validatorlogo": "ibs.jpg",
-  "explorer": "https://delve.ibs.team/"
-}, 
-{
-  "name": "RuangNode",
-  "webservices": "https://services.ruangnode.com/",
-  "x": "ruangnode",
-  "validatorlogo": "ruangnode.jpg",
-  "explorer": "https://gnolens.ruangnode.com/"
-},
- {
-      "name": "Cumulo",
-      "x": "Cumulo_pro",
-      "webservices": "https://cumulo.pro/services/gnoland_testnet/",
-      "validatorlogo": "cumulo.jpg",
-      "rpc": "https://gno.rpc.testnet.cumulo.me",
-      "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
-     "tools_url": {
-        "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
-        "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
-     },
-      "tools_desc": {
-        "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
-        "Monitoring": "Grafana monitoring dashboard for Gnoland test13 validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint"
-      } 
-     }
-    ]
+]
