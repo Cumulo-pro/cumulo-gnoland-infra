@@ -298,6 +298,26 @@
       "Tenderduty fork": "Forked Tenderduty monitoring tool adapted for Gnoland validator monitoring."
     }
   },
+  {
+  "name": "Apollo",
+  "webservices": "https://github.com/Zelivsky/gnoland-services",
+  "x": "petr_zelivsky",
+  "validatorlogo": "apollo.jpg",
+  "rpc": "https://rpc.apollo-validator.eu/gnoland/",
+  "snapshot": "https://snapshots.apollo-validator.eu/gnoland/",
+  "tools_url": {
+    "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
+    "Peers List": "https://github.com/Zelivsky/gnoland-services/blob/main/peers.md"
+  },
+  "tools_desc": {
+    "Validator Monitor Bot": "Telegram bot for real-time Gnoland Topaz validator monitoring and alerts.",
+    "Peers List": "Updated peers list for Gnoland Topaz node configuration."
+  },
+  "content": {
+    "Installation Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/guide.md",
+    "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/statesync.md"
+  }
+},
  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
