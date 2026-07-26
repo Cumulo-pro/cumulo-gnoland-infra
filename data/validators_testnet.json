@@ -192,13 +192,8 @@
     "webservices": "https://gnolandexplorer.zeycanode.com/",
     "x": "DigitalMinion2",
     "validatorlogo": "zeycanode.jpg",
-    "explorer": "https://gnolandexplorer.zeycanode.com/",
-    "tools_url": {
-      "Explorer": "https://gnolandexplorer.zeycanode.com/"
-    },
-    "tools_desc": {
-      "Explorer": "Block explorer for Gnoland testnet with live block height, validator list with voting power and uptime from recent commit signatures, monikers pulled from r/gnops/valopers, latest blocks and transactions, and English/Turkish language toggle."
-    }
+    "rpc": "https://rpctopaztestnet.zeycanode.com",
+    "explorer": "https://gnolandexplorer.zeycanode.com/"
   },
   {
     "name": "NodeRuneR",
@@ -283,7 +278,7 @@
     "x": "",
     "validatorlogo": "node9x.jpg",
     "explorer": "https://gno-explorer.node9x.com/",
-    "tools_url": {},
+    "rpc": "https://gnoland-topaz-rpc.node9x.com/",
     "tools_desc": {}
   },
   {
@@ -318,6 +313,14 @@
     "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/statesync.md"
   }
 },
+   {
+    "name": "Hazen Network Solutions",
+    "webservices": "https://hazennetworksolutions.com/",
+    "x": "haznftofficial",
+    "validatorlogo": "haznftofficial.jpg",
+    "explorer": "https://explorer.hazennetworksolutions.com/gnoland-testnet/",
+    "rpc": "https://gnoland-topaz-rpc.hazennetworksolutions.com/"
+  },
  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
