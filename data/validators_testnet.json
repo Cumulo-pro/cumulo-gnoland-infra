@@ -217,7 +217,7 @@
     "name": "Indonode",
     "webservices": "",
     "x": "",
-    "validatorlogo": "indonode.jpg",
+    "validatorlogo": "indonodev.png",
     "explorer": "https://explorer.indonode.net/gnotopaz",
     "tools_url": {},
     "tools_desc": {}
@@ -270,7 +270,7 @@
   {
     "name": "Validatorsg",
     "webservices": "https://gnovalidator.validatorsg.com/",
-    "x": "",
+    "x": "validatorsg",
     "validatorlogo": "validatorsg.jpg",
     "explorer": "https://gnovalidator.validatorsg.com/",
     "peers": "https://gnovalidator.validatorsg.com/",
