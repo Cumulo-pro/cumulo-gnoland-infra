@@ -288,8 +288,8 @@
   },
   {
     "name": "Roomit",
-    "webservices": "",
-    "x": "",
+    "webservices": "https://stake.roomit.xyz/",
+    "x": "roomit_xyz",
     "validatorlogo": "roomit.jpg",
     "tools_url": {
       "Tenderduty fork": "https://github.com/roomit-xyz/tenderduty"
