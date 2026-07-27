@@ -336,6 +336,13 @@
   "rpc": "https://gnoland-testnet-rpc.doresa.xyz/",
   "explorer": "https://gnoscan.doresa.xyz/"
 },
+  {
+  "name": "Owlstake",
+  "webservices": "https://owlstake.com/",
+  "x": "owlstake",
+  "validatorlogo": "owlstake.jpg",
+  "explorer": "https://gnoland-explorer-topaz.owlstake.com/"
+},
  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
