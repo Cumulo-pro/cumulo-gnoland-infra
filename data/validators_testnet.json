@@ -328,6 +328,14 @@
   "validatorlogo": "sr20de.jpg",
   "rpc": "https://gnoland-testnet-rpc.sr20de.xyz/"
 },
+  {
+  "name": "Doresa",
+  "webservices": "",
+  "x": "doresa0",
+  "validatorlogo": "doresa.jpg",
+  "rpc": "https://gnoland-testnet-rpc.doresa.xyz/",
+  "explorer": "https://gnoscan.doresa.xyz/"
+},
  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
