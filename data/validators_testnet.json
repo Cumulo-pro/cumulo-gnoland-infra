@@ -321,6 +321,13 @@
     "explorer": "https://explorer.hazennetworksolutions.com/gnoland-testnet/",
     "rpc": "https://gnoland-topaz-rpc.hazennetworksolutions.com/"
   },
+  {
+  "name": "Sr20de",
+  "webservices": "https://sr20de.xyz/",
+  "x": "Sr20deValidator",
+  "validatorlogo": "sr20de.jpg",
+  "rpc": "https://gnoland-testnet-rpc.sr20de.xyz/"
+},
  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
