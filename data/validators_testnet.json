@@ -20,10 +20,10 @@
     "x": "",
     "validatorlogo": "oshvank.png",
     "explorer": "https://explorer-gnoland.oshvank.xyz/",
-    "rpc": "https://gnoland-topaz-rpc.oshvank.xyz/",
+    "rpc": "https://gnoland-sapphire-rpc.oshvank.xyz/",
     "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
     "content": {
-      "Installation Guide": "https://github.com/Edsny1/Gnoland-Test13/blob/Edsny/README.md"
+      "Installation Guide": "https://docs.oshvank.xyz/docs/testnet/Gnoland-Sapphire"
     }
   },
   {
@@ -32,13 +32,12 @@
     "x": "lesnik_utsa",
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "https://exp.gno.utsa.tech/",
-    "valoper": "https://topaz.testnets.gno.land/r/gnops/valopers:g16mldrfu90pe5r97cjm3xk02m7a3d0z8g9g3r75",
     "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land",
     "tools_url": {
       "Telegram Bot": "https://t.me/UTSAGNOBot"
     },
     "tools_desc": {
-      "Telegram Bot": "Telegram helper bot for Gnoland Topaz validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts with configurable thresholds and cooldowns, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
+      "Telegram Bot": "Telegram helper bot for Gnoland Sapphire validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts with configurable thresholds and cooldowns, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
     },
     "content": {
       "Installation Guide": "https://utsa.gitbook.io/services/testnet/gno.land",
@@ -65,10 +64,10 @@
     "validatorlogo": "nodesync.jpg",
     "explorer": "https://gno-validator.nodesync.top/",
     "tools_url": {
-      "Validator Bot": "https://t.me/GnoValidatorBot"
+  "Validator Bot": "https://t.me/GnoValidatorBot"
     },
     "tools_desc": {
-      "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland Topaz. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
+      "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland Sapphire. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
     }
   },
   {
@@ -85,20 +84,20 @@
   },
   {
     "name": "CoreNode",
-    "webservices": "https://services.corenodehq.xyz/testnet/gnoland-topaz",
+    "webservices": "https://services.corenodehq.xyz/testnet/gnoland-sapphire",
     "x": "corenodeHQ",
     "validatorlogo": "corenode.jpg",
-    "explorer": "https://explorer.corenodehq.xyz/gnoland-topaz",
-    "rpc": "https://gnoland-topaz-rpc.corenodehq.xyz/",
-    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-topaz/snap",
+    "explorer": "https://explorer.corenodehq.xyz/gnoland-sapphire",
+    "rpc": "https://gnoland-sapphire-rpc.corenodehq.xyz/",
+    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-sapphire/snap",
     "tools_url": {
       "Alarm Bot": "https://t.me/corenodemasterbot"
     },
     "tools_desc": {
-      "Alarm Bot": "Telegram bot for Gnoland Topaz validator alerts and monitoring notifications."
+      "Alarm Bot": "Telegram bot for Gnoland Sapphire validator alerts and monitoring notifications."
     },
     "content": {
-      "Installation Guide": "https://services.corenodehq.xyz/testnet/gnoland-topaz"
+      "Installation Guide": "https://services.corenodehq.xyz/testnet/gnoland-sapphire"
     }
   },
   {
@@ -106,7 +105,8 @@
     "webservices": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13",
     "x": "",
     "validatorlogo": "luckystar.jpg",
-    "snapshot": "https://snapshots.luckystar.asia/gnolandtopaz/",
+    "rpc": "https://gnoland-sapphire-rpc.luckystar.asia/",
+    "snapshot": "https://snapshots.luckystar.asia/gnolandsapphire/",
     "content": {
       "Installation Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13"
     }
@@ -350,13 +350,15 @@
     "validatorlogo": "cumulo.jpg",
     "rpc": "https://gno.rpc.testnet.cumulo.me",
     "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
-    "tools_url": {
-      "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
-      "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring"
-    },
-    "tools_desc": {
-      "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
-      "Monitoring": "Grafana monitoring dashboard for Gnoland Topaz validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint."
-    }
+   "tools_url": {
+  "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
+  "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring",
+  "EndPoint Scan": "https://cumulo.pro/services/gnoland_testnet/rpcscan"
+},
+"tools_desc": {
+  "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+  "Monitoring": "Grafana monitoring dashboard for Gnoland Sapphire validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint.",
+  "EndPoint Scan": "Multi-region RPC health check (US, EU, CA) with latency per region and reliability score, auto-refreshed every 5 minutes."
+}
   }
 ]
