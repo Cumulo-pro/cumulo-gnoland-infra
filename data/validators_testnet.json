@@ -309,7 +309,7 @@
   "validatorlogo": "apollo.jpg",
   "rpc": "https://rpc.apollo-validator.eu/gnoland/",
     "peers": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md",
-  tools_url": {
+  "tools_url": {
   "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
   "Peers List": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
 },
