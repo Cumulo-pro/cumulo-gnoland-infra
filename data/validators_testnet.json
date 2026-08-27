@@ -17,7 +17,7 @@
   {
     "name": "OshVanK",
     "webservices": "https://oshvank.xyz",
-    "x": "",
+    "x": "Yahya_OshVanK",
     "validatorlogo": "oshvank.png",
     "explorer": "https://explorer-gnoland.oshvank.xyz/",
     "rpc": "https://gnoland-sapphire-rpc.oshvank.xyz/",
@@ -304,10 +304,11 @@
   },
   {
   "name": "Apollo",
-  "webservices": "https://github.com/Zelivsky/gnoland-services",
+  "webservices": "https://apollo-validator.eu/networks/gnoland/",
   "x": "petr_zelivsky",
   "validatorlogo": "apollo.jpg",
   "rpc": "https://rpc.apollo-validator.eu/gnoland/",
+    "peers": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
   "snapshot": "https://snapshots.apollo-validator.eu/gnoland/",
   "tools_url": {
     "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
