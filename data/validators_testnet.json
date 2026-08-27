@@ -222,7 +222,7 @@
     "webservices": "",
     "x": "",
     "validatorlogo": "indonodev.png",
-    "explorer": "https://explorer.indonode.net/gnotopaz",
+    "explorer": "https://explorer.indonode.net/gnosapphire/validators",
     "tools_url": {},
     "tools_desc": {}
   },
@@ -308,20 +308,19 @@
   "x": "petr_zelivsky",
   "validatorlogo": "apollo.jpg",
   "rpc": "https://rpc.apollo-validator.eu/gnoland/",
-    "peers": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
-  "snapshot": "https://snapshots.apollo-validator.eu/gnoland/",
-  "tools_url": {
-    "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
-    "Peers List": "https://github.com/Zelivsky/gnoland-services/blob/main/peers.md"
-  },
-  "tools_desc": {
-    "Validator Monitor Bot": "Telegram bot for real-time Gnoland Topaz validator monitoring and alerts.",
-    "Peers List": "Updated peers list for Gnoland Topaz node configuration."
-  },
-  "content": {
-    "Installation Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/guide.md",
-    "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/statesync.md"
-  }
+    "peers": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md",
+  tools_url": {
+  "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
+  "Peers List": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
+},
+"tools_desc": {
+  "Validator Monitor Bot": "Telegram bot for real-time Gnoland Sapphire validator monitoring and alerts.",
+  "Peers List": "Updated peers list for Gnoland Sapphire node configuration."
+},
+"content": {
+  "Installation Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/guide.md",
+  "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/statesync.md"
+}
 },
    {
     "name": "Hazen Network Solutions",
@@ -329,7 +328,19 @@
     "x": "haznftofficial",
     "validatorlogo": "haznftofficial.jpg",
     "explorer": "https://explorer.hazennetworksolutions.com/gnoland-testnet/",
-    "rpc": "https://gnoland-topaz-rpc.hazennetworksolutions.com/"
+    "rpc": "https://gnoland-sapphire-rpc.hazennetworksolutions.com",
+"snapshot": "https://server-9.hazennetworksolutions.com/gnoland-sapphire/index.json",
+"tools_url": {
+  "Indexer": "https://gnoland-sapphire-indexer.hazennetworksolutions.com/graphql/query",
+  "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/"
+},
+"tools_desc": {
+  "Indexer": "Public GraphQL tx-indexer for Gnoland Sapphire, backed by Hazen's own full node.",
+  "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer."
+},
+"content": {
+  "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
+}
   },
   {
   "name": "Sr20de",
@@ -351,7 +362,26 @@
   "webservices": "https://owlstake.com/",
   "x": "owlstake",
   "validatorlogo": "owlstake.jpg",
-  "explorer": "https://gnoland-explorer-topaz.owlstake.com/"
+  "explorer": "https://gnoland-explorer.owlstake.com/validators"
+},
+  {
+  "name": "OnNode",
+  "webservices": "https://gnoland-explorer.onnode.org/testnet",
+  "x": "onnode_staking",
+  "validatorlogo": "onnode.jpg",
+  "explorer": "https://gnoland-explorer.onnode.org/testnet",
+  "tools_url": {},
+  "tools_desc": {}
+},
+  {
+  "name": "2NH",
+  "webservices": "",
+  "x": "",
+  "validatorlogo": "2nh.jpg",
+  "explorer": "https://explorer-gnoland.2nh.uk/",
+  "rpc": "https://rpc-gnoland.2nh.uk/",
+  "tools_url": {},
+  "tools_desc": {}
 },
  {
     "name": "Cumulo",
@@ -359,6 +389,7 @@
     "webservices": "https://cumulo.pro/services/gnoland_testnet/",
     "validatorlogo": "cumulo.jpg",
     "rpc": "https://gno.rpc.testnet.cumulo.me",
+   "explorer": "https://cumulo.pro/services/gnoland_testnet/stats",
     "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
    "tools_url": {
   "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
