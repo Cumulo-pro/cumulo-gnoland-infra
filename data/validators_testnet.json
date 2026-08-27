@@ -193,7 +193,16 @@
     "x": "DigitalMinion2",
     "validatorlogo": "zeycanode.jpg",
     "rpc": "https://rpctopaztestnet.zeycanode.com",
-    "explorer": "https://gnolandexplorer.zeycanode.com/"
+    "explorer": "https://gnolandexplorer.zeycanode.com/",
+    "tools_url": {
+      "GnolandHub": "https://gnolandhub.zeycanode.com/"
+    },
+    "tools_desc": {
+     "GnolandHub": "Mini ecosystem hub for Gnoland with GovDAO votes, vaults and explorer links."
+   },
+     "content": {
+         "Installation Guide": "https://github.com/zeycan1/Gnoland-Sapphire"
+}
   },
   {
     "name": "NodeRuneR",
