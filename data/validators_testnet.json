@@ -20,11 +20,11 @@
     "x": "Yahya_OshVanK",
     "validatorlogo": "oshvank.png",
     "explorer": "https://explorer-gnoland.oshvank.xyz/",
-    "rpc": "https://gnoland-sapphire-rpc.oshvank.xyz/",
-    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
+    "rpc": "https://gnoland-pearl-rpc.oshvank.xyz/",
     "content": {
-      "Installation Guide": "https://docs.oshvank.xyz/docs/testnet/Gnoland-Sapphire"
-    }
+      "Installation Guide": "https://docs.oshvank.xyz/docs/testnet/Gnoland-Pearl"
+    },
+    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
   },
   {
     "name": "UTSA",
@@ -84,12 +84,12 @@
   },
   {
     "name": "CoreNode",
-    "webservices": "https://services.corenodehq.xyz/testnet/gnoland-sapphire",
+    "webservices": "https://services.corenodehq.xyz/testnet/gnoland-pearl",
     "x": "corenodeHQ",
     "validatorlogo": "corenode.jpg",
-    "explorer": "https://explorer.corenodehq.xyz/gnoland-sapphire",
-    "rpc": "https://gnoland-sapphire-rpc.corenodehq.xyz/",
-    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-sapphire/snap",
+    "explorer": "https://explorer.corenodehq.xyz/gnoland-pearl",
+    "rpc": "https://gnoland-pearl-rpc.corenodehq.xyz/",
+    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-pearl/snap",
     "tools_url": {
       "Alarm Bot": "https://t.me/corenodemasterbot"
     },
@@ -97,7 +97,7 @@
       "Alarm Bot": "Telegram bot for Gnoland Sapphire validator alerts and monitoring notifications."
     },
     "content": {
-      "Installation Guide": "https://services.corenodehq.xyz/testnet/gnoland-sapphire"
+      "Installation Guide": "https://services.corenodehq.xyz/testnet/gnoland-pearl"
     }
   },
   {
@@ -131,13 +131,12 @@
     "validatorlogo": "grandvalley.png",
     "rpc": "https://lightnode-rpc-gnoland.grandvalleys.com/",
     "websocket": "wss://lightnode-rpc-gnoland.grandvalleys.com/websocket",
-    "peers": "g1yzrxmspjavrkv64hl958d7xrc9vj2w9h0jefhs@peer-gnoland.grandvalleys.com:18656",
-    "valoper": "https://topaz.testnets.gno.land/r/gnops/valopers:g19sqhfxveuzdmf244xsslmwd638l9mjcdq76hym",
+    "peers": "g12qwjz6n2vgxnjtmfkvgtpgjtftwypx9k72fulk@peer-gnoland.grandvalleys.com:18656",
     "tools_url": {
       "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
     },
-    "tools_desc": {
-      "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gnoland Topaz full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, and node backup."
+   "tools_desc": {
+      "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gnoland Pearl full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, node backup, Node Doctor, and adaptive gas retry for Pearl valoper registration."
     },
     "content": {
       "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
@@ -328,15 +327,17 @@
     "x": "haznftofficial",
     "validatorlogo": "haznftofficial.jpg",
     "explorer": "https://explorer.hazennetworksolutions.com/gnoland-testnet/",
-    "rpc": "https://gnoland-sapphire-rpc.hazennetworksolutions.com",
-"snapshot": "https://server-9.hazennetworksolutions.com/gnoland-sapphire/index.json",
+    "rpc": "https://gnoland-pearl-rpc.hazennetworksolutions.com",
+"snapshot": "https://server-9.hazennetworksolutions.com/gnoland-pearl/index.json",
 "tools_url": {
-  "Indexer": "https://gnoland-sapphire-indexer.hazennetworksolutions.com/graphql/query",
-  "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/"
+  "Indexer": "https://gnoland-pearl-indexer.hazennetworksolutions.com/graphql/query",
+  "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
+  "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
 },
 "tools_desc": {
-  "Indexer": "Public GraphQL tx-indexer for Gnoland Sapphire, backed by Hazen's own full node.",
-  "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer."
+  "Indexer": "Public GraphQL tx-indexer for Gnoland Pearl, backed by Hazen's own full node.",
+  "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
+  "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Pearl."
 },
 "content": {
   "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
