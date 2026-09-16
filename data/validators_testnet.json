@@ -7,6 +7,16 @@
     "explorer": "",
     "rpc": "https://gnoland-testnet-rpc.itrocket.net",
     "snapshot": "https://itrocket.net/services/testnet/gnoland/",
+    "snapshot_check": {
+      "kind": "json_index",
+      "resolve_url": "https://server-8.itrocket.net/testnet/gnoland/.current_state.json",
+      "base_url": "https://server-8.itrocket.net/testnet/gnoland/",
+      "file_key": "snapshot_name",
+      "height_key": "snapshot_height",
+      "size_key": "snapshot_size",
+      "date_key": "snapshot_block_time",
+      "db_backend_key": "db_backend"
+    },
     "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
     "genesis": "https://server-8.itrocket.net/testnet/gnoland/genesis.json",
@@ -35,7 +45,14 @@
     "x": "lesnik_utsa",
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "https://exp.gno.utsa.tech/",
-    "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/gno.land/snapshot",
+    "snapshot_check": {
+      "kind": "stable_url",
+      "resolve_url": "https://share118.utsa.tech/gno_test/gno-test-snapshot.tar.lz4",
+      "min_size_bytes": 8000000000,
+      "db_backend": "pebbledb",
+      "note": "Fixed filename refreshed every 6 hours per their guide; confirmed live via directory listing (9.32 GB, last modified 2026-09-16)."
+    },
     "tools_url": {
       "Telegram Bot": "https://t.me/UTSAGNOBot"
     },
@@ -92,7 +109,6 @@
     "validatorlogo": "corenode.jpg",
     "explorer": "https://explorer.corenodehq.xyz/gnoland-pearl",
     "rpc": "https://gnoland-pearl-rpc.corenodehq.xyz/",
-    "snapshot": "https://services.corenodehq.xyz/testnet/gnoland-pearl/snap",
     "tools_url": {
       "Alarm Bot": "https://t.me/corenodemasterbot"
     },
@@ -268,6 +284,10 @@
     "validatorlogo": "0base.jpg",
     "rpc": "https://gnoland-topaz-testnet-rpc.1xp.vc/",
     "snapshot": "https://gnoland-testnet.1xp.vc/",
+    "snapshot_check": {
+      "kind": "always_ok",
+      "note": "Dashboard shows a 'Recent Snapshots' table (file/height/size/created) but it's JS-rendered client-side ('Loading' state on plain fetch); no public JSON API endpoint found (/api/snapshot, /api/snapshots, /api/status all 404). Automated verification disabled; assumed available."
+    },
     "peers": "https://gnoland-testnet.1xp.vc/",
     "tools_url": {},
     "tools_desc": {}
@@ -413,6 +433,15 @@
     "rpc": "https://gno.rpc.testnet.cumulo.me",
     "explorer": "https://cumulo.pro/services/gnoland_testnet/stats",
     "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
+    "snapshot_check": {
+      "kind": "json_index",
+      "resolve_url": "https://gno.snapshots.testnet.cumulo.me/snapshots/index.json",
+      "base_url": "https://gno.snapshots.testnet.cumulo.me/snapshots/",
+      "file_key": "filename",
+      "height_key": "block_height",
+      "size_key": "size_bytes",
+      "date_key": "generated_at"
+    },
     "statesync_rpc": "https://gno.rpc.testnet.cumulo.me",
     "tools_url": {
       "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
