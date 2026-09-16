@@ -10,6 +10,8 @@
     "peers": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "seed": "g1rrj6gvxp7ph8d4rsy9vegrhp8nx4lyxzgmc4ad@gnoland-testnet-seed.itrocket.net:54656",
     "genesis": "https://server-8.itrocket.net/testnet/gnoland/genesis.json",
+    "statesync_rpc": "https://gnoland-testnet-rpc.itrocket.net",
+    "statesync_peer": "g15zgyv8qtz6lmqwaa9f4z2nuh9v4ldzxpemf4vl@gnoland-testnet-peer.itrocket.net:54656",
     "content": {
       "Installation Guide": "https://itrocket.net/services/testnet/gnoland/installation/"
     }
@@ -24,7 +26,8 @@
     "content": {
       "Installation Guide": "https://docs.oshvank.xyz/docs/testnet/Gnoland-Pearl"
     },
-    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656"
+    "peers": "g12gxe0qpq90vhhpp5gtavafgr2nl9cntntvrjkj@186.233.184.95:37656",
+    "statesync_rpc": "https://gnoland-pearl-rpc.oshvank.xyz/"
   },
   {
     "name": "UTSA",
@@ -64,7 +67,7 @@
     "validatorlogo": "nodesync.jpg",
     "explorer": "https://gno-validator.nodesync.top/",
     "tools_url": {
-  "Validator Bot": "https://t.me/GnoValidatorBot"
+      "Validator Bot": "https://t.me/GnoValidatorBot"
     },
     "tools_desc": {
       "Validator Bot": "Telegram bot for real-time missed block alerts on Gnoland Sapphire. Track one or multiple active set validators with instant notifications and easy management via bot commands or dashboard quick buttons."
@@ -111,7 +114,7 @@
       "Installation Guide": "https://luckystar-1.gitbook.io/luckystar.asia/testnet/cosmos-eco/gnolandtest13"
     }
   },
-   {
+  {
     "name": "Tanjira",
     "webservices": "https://gnopulse.xyz/",
     "x": "",
@@ -132,10 +135,12 @@
     "rpc": "https://lightnode-rpc-gnoland.grandvalleys.com/",
     "websocket": "wss://lightnode-rpc-gnoland.grandvalleys.com/websocket",
     "peers": "g12qwjz6n2vgxnjtmfkvgtpgjtftwypx9k72fulk@peer-gnoland.grandvalleys.com:18656",
+    "statesync_rpc": "https://lightnode-rpc-gnoland.grandvalleys.com/",
+    "statesync_peer": "g12qwjz6n2vgxnjtmfkvgtpgjtftwypx9k72fulk@peer-gnoland.grandvalleys.com:18656",
     "tools_url": {
       "Valley of Gnoland": "https://github.com/hubofvalley/Valley-of-Gnoland-Testnet"
     },
-   "tools_desc": {
+    "tools_desc": {
       "Valley of Gnoland": "Interactive terminal tool to deploy and manage a Gnoland Pearl full node and validator-candidate workflow. Covers node deployment, gnokey management, consensus pubkey, valoper registration, peer config, node backup, Node Doctor, and adaptive gas retry for Pearl valoper registration."
     },
     "content": {
@@ -197,11 +202,11 @@
       "GnolandHub": "https://gnolandhub.zeycanode.com/"
     },
     "tools_desc": {
-     "GnolandHub": "Mini ecosystem hub for Gnoland with GovDAO votes, vaults and explorer links."
-   },
-     "content": {
-         "Installation Guide": "https://github.com/zeycan1/Gnoland-Sapphire"
-}
+      "GnolandHub": "Mini ecosystem hub for Gnoland with GovDAO votes, vaults and explorer links."
+    },
+    "content": {
+      "Installation Guide": "https://github.com/zeycan1/Gnoland-Sapphire"
+    }
   },
   {
     "name": "NodeRuneR",
@@ -245,8 +250,14 @@
     "validatorlogo": "nodeshub.jpg",
     "rpc": "https://gnoland.test.rpc.nodeshub.online/",
     "snapshot": "https://services.nodeshub.online/testnet/gnoland/snapshot",
+    "snapshot_check": {
+      "kind": "always_ok",
+      "note": "The page is a JavaScript-rendered SPA (loads a 'Loading chain data...' shell with no directory listing or JSON manifest reachable by a plain HTTP fetch); no public API endpoint found either. Automated verification disabled; assumed available."
+    },
     "seed": "g1f95jxjxnmegszr8ut7c38uhvjycjj2hjrpw5ds@gnoland.test.seed.nodeshub.online:32556",
     "peers": "https://services.nodeshub.online/testnet/gnoland/peers",
+    "statesync_rpc": "https://gnoland.test.rpc.nodeshub.online/",
+    "statesync_peer": "g1f95jxjxnmegszr8ut7c38uhvjycjj2hjrpw5ds@gnoland.test.seed.nodeshub.online:32556",
     "tools_url": {},
     "tools_desc": {}
   },
@@ -302,105 +313,116 @@
     }
   },
   {
-  "name": "Apollo",
-  "webservices": "https://apollo-validator.eu/networks/gnoland/",
-  "x": "petr_zelivsky",
-  "validatorlogo": "apollo.jpg",
-  "rpc": "https://rpc.apollo-validator.eu/gnoland/",
+    "name": "Apollo",
+    "webservices": "https://apollo-validator.eu/networks/gnoland/",
+    "x": "petr_zelivsky",
+    "validatorlogo": "apollo.jpg",
+    "rpc": "https://rpc.apollo-validator.eu/gnoland/",
     "peers": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md",
-  "tools_url": {
-  "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
-  "Peers List": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
-},
-"tools_desc": {
-  "Validator Monitor Bot": "Telegram bot for real-time Gnoland Sapphire validator monitoring and alerts.",
-  "Peers List": "Updated peers list for Gnoland Sapphire node configuration."
-},
-"content": {
-  "Installation Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/guide.md",
-  "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/statesync.md"
-}
-},
-   {
+    "tools_url": {
+      "Validator Monitor Bot": "https://t.me/gnoland_monitor_apollo_bot",
+      "Peers List": "https://github.com/Zelivsky/gnoland-sapphire-services/blob/master/peers.md"
+    },
+    "tools_desc": {
+      "Validator Monitor Bot": "Telegram bot for real-time Gnoland Sapphire validator monitoring and alerts.",
+      "Peers List": "Updated peers list for Gnoland Sapphire node configuration."
+    },
+    "content": {
+      "Installation Guide": "https://github.com/Zelivsky/gnoland-services/blob/main/guide.md",
+      "Snapshot and State Sync Guide": "https://github.com/Zelivsky/gnoland-services/blob/master/statesync.md"
+    }
+  },
+  {
     "name": "Hazen Network Solutions",
     "webservices": "https://hazennetworksolutions.com/",
     "x": "haznftofficial",
     "validatorlogo": "haznftofficial.jpg",
     "explorer": "https://explorer.hazennetworksolutions.com/gnoland-testnet/",
     "rpc": "https://gnoland-pearl-rpc.hazennetworksolutions.com",
-"snapshot": "https://server-9.hazennetworksolutions.com/gnoland-pearl/index.json",
-"tools_url": {
-  "Indexer": "https://gnoland-pearl-indexer.hazennetworksolutions.com/graphql/query",
-  "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
-  "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
-},
-"tools_desc": {
-  "Indexer": "Public GraphQL tx-indexer for Gnoland Pearl, backed by Hazen's own full node.",
-  "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
-  "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Pearl."
-},
-"content": {
-  "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
-}
+    "snapshot": "https://server-9.hazennetworksolutions.com/gnoland-pearl/index.json",
+    "snapshot_check": {
+      "kind": "json_index",
+      "resolve_url": "https://server-9.hazennetworksolutions.com/gnoland-pearl/index.json",
+      "base_url": "https://server-9.hazennetworksolutions.com/gnoland-pearl/",
+      "file_key": "file",
+      "height_key": "blockHeight",
+      "size_key": "sizeBytes",
+      "date_key": "generatedAt"
+    },
+    "statesync_rpc": "https://gnoland-pearl-rpc.hazennetworksolutions.com",
+    "tools_url": {
+      "Indexer": "https://gnoland-pearl-indexer.hazennetworksolutions.com/graphql/query",
+      "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
+      "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
+    },
+    "tools_desc": {
+      "Indexer": "Public GraphQL tx-indexer for Gnoland Pearl, backed by Hazen's own full node.",
+      "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
+      "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Pearl."
+    },
+    "content": {
+      "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
+    }
   },
   {
-  "name": "Sr20de",
-  "webservices": "https://sr20de.xyz/",
-  "x": "Sr20deValidator",
-  "validatorlogo": "sr20de.jpg",
-  "rpc": "https://gnoland-testnet-rpc.sr20de.xyz/"
-},
+    "name": "Sr20de",
+    "webservices": "https://sr20de.xyz/",
+    "x": "Sr20deValidator",
+    "validatorlogo": "sr20de.jpg",
+    "rpc": "https://gnoland-testnet-rpc.sr20de.xyz/"
+  },
   {
-  "name": "Doresa",
-  "webservices": "",
-  "x": "doresa0",
-  "validatorlogo": "doresa.jpg",
-  "rpc": "https://gnoland-testnet-rpc.doresa.xyz/",
-  "explorer": "https://gnoscan.doresa.xyz/"
-},
+    "name": "Doresa",
+    "webservices": "",
+    "x": "doresa0",
+    "validatorlogo": "doresa.jpg",
+    "rpc": "https://gnoland-testnet-rpc.doresa.xyz/",
+    "explorer": "https://gnoscan.doresa.xyz/"
+  },
   {
-  "name": "Owlstake",
-  "webservices": "https://owlstake.com/",
-  "x": "owlstake",
-  "validatorlogo": "owlstake.jpg",
-  "explorer": "https://gnoland-explorer.owlstake.com/validators"
-},
+    "name": "Owlstake",
+    "webservices": "https://owlstake.com/",
+    "x": "owlstake",
+    "validatorlogo": "owlstake.jpg",
+    "explorer": "https://gnoland-explorer.owlstake.com/validators"
+  },
   {
-  "name": "OnNode",
-  "webservices": "https://gnoland-explorer.onnode.org/testnet",
-  "x": "onnode_staking",
-  "validatorlogo": "onnode.jpg",
-  "explorer": "https://gnoland-explorer.onnode.org/testnet",
-  "tools_url": {},
-  "tools_desc": {}
-},
+    "name": "OnNode",
+    "webservices": "https://gnoland-explorer.onnode.org/testnet",
+    "x": "onnode_staking",
+    "validatorlogo": "onnode.jpg",
+    "explorer": "https://gnoland-explorer.onnode.org/testnet",
+    "tools_url": {},
+    "tools_desc": {}
+  },
   {
-  "name": "2NH",
-  "webservices": "",
-  "x": "",
-  "validatorlogo": "2nh.jpg",
-  "explorer": "https://explorer-gnoland.2nh.uk/",
-  "rpc": "https://rpc-gnoland.2nh.uk/",
-  "tools_url": {},
-  "tools_desc": {}
-},
- {
+    "name": "2NH",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "2nh.jpg",
+    "explorer": "https://explorer-gnoland.2nh.uk/",
+    "rpc": "https://rpc-gnoland.2nh.uk/",
+    "tools_url": {},
+    "tools_desc": {}
+  },
+  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
     "webservices": "https://cumulo.pro/services/gnoland_testnet/",
     "validatorlogo": "cumulo.jpg",
     "rpc": "https://gno.rpc.testnet.cumulo.me",
-   "explorer": "https://cumulo.pro/services/gnoland_testnet/stats",
+    "explorer": "https://cumulo.pro/services/gnoland_testnet/stats",
     "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
-   "tools_url": {
-  "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
-  "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring",
-  "EndPoint Scan": "https://cumulo.pro/services/gnoland_testnet/rpcscan"
-},
-"tools_desc": {
-  "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
-  "Monitoring": "Grafana monitoring dashboard for Gnoland Sapphire validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint.",
-  "EndPoint Scan": "Multi-region RPC health check (US, EU, CA) with latency per region and reliability score, auto-refreshed every 5 minutes."
-}
+    "statesync_rpc": "https://gno.rpc.testnet.cumulo.me",
+    "tools_url": {
+      "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
+      "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring",
+      "EndPoint Scan": "https://cumulo.pro/services/gnoland_testnet/rpcscan"
+    },
+    "tools_desc": {
+      "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+      "Monitoring": "Grafana monitoring dashboard for Gnoland Sapphire validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint.",
+      "EndPoint Scan": "Multi-region RPC health check (US, EU, CA) with latency per region and reliability score, auto-refreshed every 5 minutes."
+    }
   }
 ]
