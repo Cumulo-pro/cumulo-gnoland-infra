@@ -36,7 +36,14 @@
   "x": "corenodeHQ",
   "validatorlogo": "corenode.jpg",
   "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/"
-}
+},
+  {
+  "name": "Indonode",
+  "webservices": "",
+  "x": "",
+  "validatorlogo": "indonode.jpg",
+  "explorer": "https://explorer.indonode.net/gnolandmainnet"
+},
    {
     "name": "Cumulo",
     "x": "Cumulo_pro",
