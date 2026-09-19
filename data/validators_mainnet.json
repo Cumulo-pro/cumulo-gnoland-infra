@@ -5,6 +5,7 @@
     "x": "avia_one",
     "validatorlogo": "aviaone.jpg",
     "seed": "g12hearzuq9qzjcel4pg0zz8ht8eu064jtu8llp2@seed.pearl-1.gno.aviaone.com:10277",
+    "rpc": "https://rpc.gnoland-1.gno.aviaone.com",
     "tools_url": {
       "GnoDuty": "https://github.com/AviaOne/GnoDuty",
       "Tenderseed": "https://github.com/AviaOne/tenderseed"
