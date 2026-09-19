@@ -1,5 +1,18 @@
 [
   {
+  "name": "Tanjira",
+  "webservices": "https://gnopulse.xyz/",
+  "x": "",
+  "validatorlogo": "tanjira.jpg",
+  "explorer": "https://gnopulse.xyz/#/overview",
+  "tools_url": {
+    "GnoPulse Explorer": "https://gnopulse.xyz/#/overview"
+  },
+  "tools_desc": {
+    "GnoPulse Explorer": "Block explorer for Gnoland mainnet built for both developers and end users."
+  }
+},
+  {
     "name": "AviaOne",
     "webservices": "https://aviaone.com/",
     "x": "avia_one",
