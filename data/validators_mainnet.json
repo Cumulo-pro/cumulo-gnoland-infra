@@ -29,5 +29,12 @@
     "content": {
       "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Mainnet"
     }
+  },
+   {
+    "name": "Cumulo",
+    "x": "Cumulo_pro",
+    "webservices": "https://cumulo.pro/services/gnoland_testnet/",
+    "validatorlogo": "cumulo.jpg",
+    "rpc": "http://gno.rpc.cumulo.me",
   }
 ]
