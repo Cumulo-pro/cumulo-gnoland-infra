@@ -64,6 +64,6 @@
     "x": "Cumulo_pro",
     "webservices": "https://cumulo.pro/services/gnoland_testnet/",
     "validatorlogo": "cumulo.jpg",
-    "rpc": "http://gno.rpc.cumulo.me"
+    "rpc": "https://gno.rpc.cumulo.me"
   }
 ]
