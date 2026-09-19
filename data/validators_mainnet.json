@@ -1,0 +1,32 @@
+[
+  {
+    "name": "AviaOne",
+    "webservices": "https://aviaone.com/",
+    "x": "avia_one",
+    "validatorlogo": "aviaone.jpg",
+    "seed": "g12hearzuq9qzjcel4pg0zz8ht8eu064jtu8llp2@seed.pearl-1.gno.aviaone.com:10277",
+    "tools_url": {
+      "GnoDuty": "https://github.com/AviaOne/GnoDuty",
+      "Tenderseed": "https://github.com/AviaOne/tenderseed"
+    },
+    "tools_desc": {
+      "GnoDuty": "Real-time Gnoland (TM2) validator monitor, hard fork of Tenderduty adapted for Gnoland. Includes fix for false jailed alerts caused by RPC timeouts.",
+      "Tenderseed": "Tenderseed v3.0.0 — single binary seed node for Cosmos (TM1) and gno.land (TM2). Maintained by AviaOne, includes the first seed implementation for gno.land merged in pearl-1 via PR #6023."
+    }
+  },
+  {
+    "name": "Grand Valley",
+    "webservices": "https://github.com/hubofvalley/Valley-of-Gnoland-Mainnet",
+    "x": "bacvalley",
+    "validatorlogo": "grandvalley.png",
+    "tools_url": {
+      "Valley of Gnoland Mainnet": "https://github.com/hubofvalley/Valley-of-Gnoland-Mainnet"
+    },
+    "tools_desc": {
+      "Valley of Gnoland Mainnet": "Node operator toolkit for Gnoland mainnet (gnoland-1). Covers verified installation with binary checksum, official peer config, Node Doctor, service-ownership guards, operational utilities, and release identity preflight for coordinated upgrades."
+    },
+    "content": {
+      "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Mainnet"
+    }
+  }
+]
