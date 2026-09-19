@@ -30,6 +30,13 @@
       "Installation Guide": "https://github.com/hubofvalley/Valley-of-Gnoland-Mainnet"
     }
   },
+  {
+  "name": "CoreNode",
+  "webservices": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet",
+  "x": "corenodeHQ",
+  "validatorlogo": "corenode.jpg",
+  "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/"
+}
    {
     "name": "Cumulo",
     "x": "Cumulo_pro",
