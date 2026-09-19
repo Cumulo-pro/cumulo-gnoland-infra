@@ -35,6 +35,7 @@
   "webservices": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet",
   "x": "corenodeHQ",
   "validatorlogo": "corenode.jpg",
+  "rpc": " https://gnoland-mainnet-rpc.corenodehq.xyz",
   "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/"
 },
   {
