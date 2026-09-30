@@ -59,12 +59,16 @@
   "validatorlogo": "indonode.jpg",
   "explorer": "https://explorer.indonode.net/gnolandmainnet"
 },
-  {
+ {
   "name": "ITRocket",
   "webservices": "https://itrocket.net/services/mainnet/gnoland/",
   "x": "itrocket_team",
   "validatorlogo": "itrocket.png",
+  "rpc": "https://gnoland-mainnet-rpc.itrocket.net",
   "snapshot": "https://itrocket.net/services/mainnet/gnoland/",
+  "peers": "g1psn7pm44hgewvwe7lgeqkszg98lvfseaz0s8m3@gnoland-mainnet-peer.itrocket.net:19656",
+  "seed": "g1fvexmwux9e9nj06teylp7d0c9g2rjed29a7yjk@gnoland-mainnet-seed.itrocket.net:19656",
+  "genesis": "https://server-8.itrocket.net/mainnet/gnoland/genesis.json",
   "tools_url": {},
   "tools_desc": {},
   "content": {
