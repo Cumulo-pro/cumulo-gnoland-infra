@@ -1,17 +1,17 @@
 [
   {
-  "name": "Tanjira",
-  "webservices": "https://gnopulse.xyz/",
-  "x": "",
-  "validatorlogo": "tanjira.jpg",
-  "explorer": "https://gnopulse.xyz/#/overview",
-  "tools_url": {
-    "GnoPulse Explorer": "https://gnopulse.xyz/#/overview"
+    "name": "Tanjira",
+    "webservices": "https://gnopulse.xyz/",
+    "x": "",
+    "validatorlogo": "tanjira.jpg",
+    "explorer": "https://gnopulse.xyz/#/overview",
+    "tools_url": {
+      "GnoPulse Explorer": "https://gnopulse.xyz/#/overview"
+    },
+    "tools_desc": {
+      "GnoPulse Explorer": "Block explorer for Gnoland mainnet built for both developers and end users."
+    }
   },
-  "tools_desc": {
-    "GnoPulse Explorer": "Block explorer for Gnoland mainnet built for both developers and end users."
-  }
-},
   {
     "name": "AviaOne",
     "webservices": "https://aviaone.com/",
@@ -19,6 +19,8 @@
     "validatorlogo": "aviaone.jpg",
     "seed": "g1ypcgv5auk2rsgltjmcc6wa7m3kaudp6ag2v4n7@seed.gnoland-1.gno.aviaone.com:10299",
     "rpc": "https://rpc.gnoland-1.gno.aviaone.com",
+    "statesync_rpc": "https://rpc.gnoland-1.gno.aviaone.com",
+    "statesync_peer": "g10379t7pcgflvue6peautcvfnx5vrxnspz7azhv@116.202.156.139:26746",
     "tools_url": {
       "GnoDuty": "https://github.com/AviaOne/GnoDuty",
       "Tenderseed": "https://github.com/AviaOne/tenderseed"
@@ -44,82 +46,114 @@
     }
   },
   {
-  "name": "CoreNode",
-  "webservices": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet",
-  "x": "corenodeHQ",
-  "validatorlogo": "corenode.jpg",
-  "explorer": "https://explorer.corenodehq.xyz/gnoland-mainnet",
-  "rpc": " https://gnoland-mainnet-rpc.corenodehq.xyz",
-  "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/"
-},
+    "name": "CoreNode",
+    "webservices": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "explorer": "https://explorer.corenodehq.xyz/gnoland-mainnet",
+    "rpc": "https://gnoland-mainnet-rpc.corenodehq.xyz",
+    "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/",
+    "statesync_rpc": "https://gnoland-mainnet-rpc.corenodehq.xyz",
+    "snapshot_check": {
+      "kind": "always_ok",
+      "note": "Real directory listing (Caddy file server) but the filename embeds date+height (gnoland_<YYYYMMDD-HHMM>_<height>.tar.lz4) with no stable/latest symlink and no JSON manifest, so it can't be resolved automatically; last manually verified 2026-09-30 (1.5GB, height 448617, generated 10:00 UTC)."
+    }
+  },
   {
-  "name": "Indonode",
-  "webservices": "",
-  "x": "https://x.com/Fluxen_ops",
-  "validatorlogo": "indonode.jpg",
-  "explorer": "https://explorer.indonode.net/gnolandmainnet"
-},
- {
-  "name": "ITRocket",
-  "webservices": "https://itrocket.net/services/mainnet/gnoland/",
-  "x": "itrocket_team",
-  "validatorlogo": "itrocket.png",
-  "rpc": "https://gnoland-mainnet-rpc.itrocket.net",
-  "snapshot": "https://itrocket.net/services/mainnet/gnoland/",
-  "peers": "g1psn7pm44hgewvwe7lgeqkszg98lvfseaz0s8m3@gnoland-mainnet-peer.itrocket.net:19656",
-  "seed": "g1fvexmwux9e9nj06teylp7d0c9g2rjed29a7yjk@gnoland-mainnet-seed.itrocket.net:19656",
-  "genesis": "https://server-8.itrocket.net/mainnet/gnoland/genesis.json",
-  "tools_url": {},
-  "tools_desc": {},
-  "content": {
-    "Installation Guide": "https://itrocket.net/services/mainnet/gnoland/"
-  }
-},
+    "name": "Indonode",
+    "webservices": "",
+    "x": "https://x.com/Fluxen_ops",
+    "validatorlogo": "indonode.jpg",
+    "explorer": "https://explorer.indonode.net/gnolandmainnet"
+  },
   {
-  "name": "UTSA",
-  "webservices": "https://utsa.gitbook.io/services/mainnet/gno.land",
-  "x": "lesnik_utsa",
-  "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
-  "explorer": "https://exp.gno.utsa.tech/",
-  "snapshot": "https://utsa.gitbook.io/services/mainnet/gno.land",
-  "tools_url": {
-    "Telegram Bot": "https://t.me/UTSAGNOBot"
+    "name": "ITRocket",
+    "webservices": "https://itrocket.net/services/mainnet/gnoland/",
+    "x": "itrocket_team",
+    "validatorlogo": "itrocket.png",
+    "rpc": "https://gnoland-mainnet-rpc.itrocket.net",
+    "snapshot": "https://itrocket.net/services/mainnet/gnoland/",
+    "peers": "g1psn7pm44hgewvwe7lgeqkszg98lvfseaz0s8m3@gnoland-mainnet-peer.itrocket.net:19656",
+    "seed": "g1fvexmwux9e9nj06teylp7d0c9g2rjed29a7yjk@gnoland-mainnet-seed.itrocket.net:19656",
+    "genesis": "https://server-8.itrocket.net/mainnet/gnoland/genesis.json",
+    "statesync_rpc": "https://gnoland-mainnet-rpc.itrocket.net",
+    "statesync_peer": "g1psn7pm44hgewvwe7lgeqkszg98lvfseaz0s8m3@gnoland-mainnet-peer.itrocket.net:19656",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {
+      "Installation Guide": "https://itrocket.net/services/mainnet/gnoland/"
+    },
+    "snapshot_check": {
+      "kind": "json_index",
+      "resolve_url": "https://server-6.itrocket.net/mainnet/gnoland/.current_state.json",
+      "base_url": "https://server-6.itrocket.net/mainnet/gnoland/",
+      "file_key": "snapshot_name",
+      "height_key": "snapshot_height",
+      "date_key": "snapshot_block_time",
+      "size_key": "snapshot_size",
+      "db_backend_key": "db_backend"
+    }
   },
-  "tools_desc": {
-    "Telegram Bot": "Telegram helper bot for Gnoland Mainnet validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
-  },
-  "content": {
-    "Installation Guide": "https://utsa.gitbook.io/services/mainnet/gno.land",
-    "Installation Guide (RU)": "https://teletype.media/@lesnik13utsa/65wu7A2kPfo"
-  }
-},
   {
-  "name": "Hazen Network Solutions",
-  "webservices": "https://hazennetworksolutions.com/",
-  "x": "haznftofficial",
-  "validatorlogo": "haznftofficial.jpg",
-  "explorer": "https://explorer.hazennetworksolutions.com/gnoland-mainnet/",
-  "rpc": "https://gnoland-mainnet-rpc.hazennetworksolutions.com",
-  "snapshot": "https://server-9.hazennetworksolutions.com/gnoland-mainnet/index.json",
-  "tools_url": {
-    "Indexer": "https://gnoland-mainnet-indexer.hazennetworksolutions.com/graphql/query",
-    "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
-    "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
+    "name": "UTSA",
+    "webservices": "https://utsa.gitbook.io/services/mainnet/gno.land",
+    "x": "lesnik_utsa",
+    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
+    "explorer": "https://exp.gno.utsa.tech/",
+    "snapshot": "https://utsa.gitbook.io/services/mainnet/gno.land",
+    "tools_url": {
+      "Telegram Bot": "https://t.me/UTSAGNOBot"
+    },
+    "tools_desc": {
+      "Telegram Bot": "Telegram helper bot for Gnoland Mainnet validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
+    },
+    "content": {
+      "Installation Guide": "https://utsa.gitbook.io/services/mainnet/gno.land",
+      "Installation Guide (RU)": "https://teletype.media/@lesnik13utsa/65wu7A2kPfo"
+    },
+    "snapshot_check": {
+      "kind": "unknown",
+      "note": "Page is a static GitBook doc with no direct download link or file host found in the raw HTML (unlike their testnet page, which links share118.utsa.tech directly). Needs the real host/path from UTSA before this can be automated."
+    }
   },
-  "tools_desc": {
-    "Indexer": "Public GraphQL tx-indexer for Gnoland Mainnet, backed by Hazen's own full node.",
-    "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
-    "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Mainnet."
+  {
+    "name": "Hazen Network Solutions",
+    "webservices": "https://hazennetworksolutions.com/",
+    "x": "haznftofficial",
+    "validatorlogo": "haznftofficial.jpg",
+    "explorer": "https://explorer.hazennetworksolutions.com/gnoland-mainnet/",
+    "rpc": "https://gnoland-mainnet-rpc.hazennetworksolutions.com",
+    "snapshot": "https://server-9.hazennetworksolutions.com/gnoland-mainnet/index.json",
+    "statesync_rpc": "https://gnoland-mainnet-rpc.hazennetworksolutions.com",
+    "tools_url": {
+      "Indexer": "https://gnoland-mainnet-indexer.hazennetworksolutions.com/graphql/query",
+      "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
+      "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
+    },
+    "tools_desc": {
+      "Indexer": "Public GraphQL tx-indexer for Gnoland Mainnet, backed by Hazen's own full node.",
+      "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
+      "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Mainnet."
+    },
+    "content": {
+      "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
+    },
+    "snapshot_check": {
+      "kind": "json_index",
+      "resolve_url": "https://server-9.hazennetworksolutions.com/gnoland-mainnet/index.json",
+      "base_url": "https://server-9.hazennetworksolutions.com/gnoland-mainnet/",
+      "file_key": "file",
+      "height_key": "blockHeight",
+      "size_key": "sizeBytes",
+      "date_key": "generatedAt"
+    }
   },
-  "content": {
-    "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
-  }
-},
-   {
+  {
     "name": "Cumulo",
     "x": "Cumulo_pro",
     "webservices": "https://cumulo.pro/services/gnoland_testnet/",
     "validatorlogo": "cumulo.jpg",
-    "rpc": "https://gno.rpc.cumulo.me"
+    "rpc": "https://gno.rpc.cumulo.me",
+    "statesync_rpc": "https://gno.rpc.cumulo.me"
   }
 ]
