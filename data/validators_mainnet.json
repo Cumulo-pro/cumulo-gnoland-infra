@@ -17,7 +17,7 @@
     "webservices": "https://aviaone.com/",
     "x": "avia_one",
     "validatorlogo": "aviaone.jpg",
-    "seed": "g12hearzuq9qzjcel4pg0zz8ht8eu064jtu8llp2@seed.pearl-1.gno.aviaone.com:10277",
+    "seed": "g1ypcgv5auk2rsgltjmcc6wa7m3kaudp6ag2v4n7@seed.gnoland-1.gno.aviaone.com:10299",
     "rpc": "https://rpc.gnoland-1.gno.aviaone.com",
     "tools_url": {
       "GnoDuty": "https://github.com/AviaOne/GnoDuty",
@@ -58,6 +58,58 @@
   "x": "https://x.com/Fluxen_ops",
   "validatorlogo": "indonode.jpg",
   "explorer": "https://explorer.indonode.net/gnolandmainnet"
+},
+  {
+  "name": "ITRocket",
+  "webservices": "https://itrocket.net/services/mainnet/gnoland/",
+  "x": "itrocket_team",
+  "validatorlogo": "itrocket.png",
+  "snapshot": "https://itrocket.net/services/mainnet/gnoland/",
+  "tools_url": {},
+  "tools_desc": {},
+  "content": {
+    "Installation Guide": "https://itrocket.net/services/mainnet/gnoland/"
+  }
+},
+  {
+  "name": "UTSA",
+  "webservices": "https://utsa.gitbook.io/services/mainnet/gno.land",
+  "x": "lesnik_utsa",
+  "validatorlogo": "lesnik.jpg",
+  "explorer": "https://exp.gno.utsa.tech/",
+  "snapshot": "https://utsa.gitbook.io/services/mainnet/gno.land",
+  "tools_url": {
+    "Telegram Bot": "https://t.me/UTSAGNOBot"
+  },
+  "tools_desc": {
+    "Telegram Bot": "Telegram helper bot for Gnoland Mainnet validators. Features: network status, live peers, active and candidate validator overviews, validator lookup, personal watchlist, missed-signature alerts, public RPC status, network distribution by region/country/ASN, and guides and snapshots in RU/ENG."
+  },
+  "content": {
+    "Installation Guide": "https://utsa.gitbook.io/services/mainnet/gno.land",
+    "Installation Guide (RU)": "https://teletype.media/@lesnik13utsa/65wu7A2kPfo"
+  }
+},
+  {
+  "name": "Hazen Network Solutions",
+  "webservices": "https://hazennetworksolutions.com/",
+  "x": "haznftofficial",
+  "validatorlogo": "haznftofficial.jpg",
+  "explorer": "https://explorer.hazennetworksolutions.com/gnoland-mainnet/",
+  "rpc": "https://gnoland-mainnet-rpc.hazennetworksolutions.com",
+  "snapshot": "https://server-9.hazennetworksolutions.com/gnoland-mainnet/index.json",
+  "tools_url": {
+    "Indexer": "https://gnoland-mainnet-indexer.hazennetworksolutions.com/graphql/query",
+    "AI / gnomcp Guide": "https://guides.hazennetworksolutions.com/gnoland-ai/",
+    "Validator Monitor": "https://monitor.hazennetworksolutions.com/"
+  },
+  "tools_desc": {
+    "Indexer": "Public GraphQL tx-indexer for Gnoland Mainnet, backed by Hazen's own full node.",
+    "AI / gnomcp Guide": "Guide to connect Cursor/Claude to gno.land using Hazen's public RPC and indexer.",
+    "Validator Monitor": "Uptime tracking dashboard for Hazen Network Solutions validator on Gnoland Mainnet."
+  },
+  "content": {
+    "Installation Guide": "https://guides.hazennetworksolutions.com/gnoland/"
+  }
 },
    {
     "name": "Cumulo",
