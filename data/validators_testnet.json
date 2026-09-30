@@ -168,5 +168,29 @@
     "tools_desc": {
       "ESERCKR Explorer": "Block explorer for Gnoland Onyx testnet."
     }
+  },
+    {
+    "name": "Cumulo",
+    "x": "Cumulo_pro",
+    "webservices": "https://cumulo.pro/services/gnoland_testnet/",
+    "validatorlogo": "cumulo.jpg",
+    "rpc": "https://gno.rpc.testnet.cumulo.me",
+    "explorer": "https://cumulo.pro/services/gnoland_testnet/stats",
+    "snapshot": "https://cumulo.pro/services/gnoland_testnet/snapshot",
+    "statesync_rpc": "https://gno.rpc.testnet.cumulo.me",
+    "tools_url": {
+      "Cumulo Live Peers": "https://cumulo.pro/services/gnoland_testnet/peers",
+      "Monitoring": "https://cumulo.pro/services/gnoland_testnet/monitoring",
+      "EndPoint Scan": "https://cumulo.pro/services/gnoland_testnet/rpcscan"
+    },
+    "tools_desc": {
+      "Cumulo Live Peers": "A live peer checker, updated every 30 minutes and available through both a public dashboard and API.",
+      "Monitoring": "Grafana monitoring dashboard for Gnoland Sapphire validators and full nodes, providing real-time visibility into consensus health, VM execution, gas usage, mempool and P2P connectivity across 14 metric areas sourced from the OpenTelemetry endpoint.",
+      "EndPoint Scan": "Multi-region RPC health check (US, EU, CA) with latency per region and reliability score, auto-refreshed every 5 minutes."
+    },
+    "snapshot_check": {
+      "kind": "unknown",
+      "note": "Snapshot page and infra are live, but the shared index.json at gno.snapshots.testnet.cumulo.me is currently serving mainnet data mislabeled as testnet (backend needs a separate onyx-1 snapshot generator/index before this can be automated)."
+    }
   }
 ]
