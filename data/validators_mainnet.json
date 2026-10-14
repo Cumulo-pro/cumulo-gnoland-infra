@@ -52,11 +52,17 @@
     "validatorlogo": "corenode.jpg",
     "explorer": "https://explorer.corenodehq.xyz/gnoland-mainnet",
     "rpc": "https://gnoland-mainnet-rpc.corenodehq.xyz",
+    "rpc2": "https://gnoland-mainnet-rpc2.corenodehq.xyz",
     "snapshot": "https://files.corenodehq.xyz/gnoland/snapshot/",
     "statesync_rpc": "https://gnoland-mainnet-rpc.corenodehq.xyz",
     "snapshot_check": {
       "kind": "always_ok",
       "note": "Real directory listing (Caddy file server) but the filename embeds date+height (gnoland_<YYYYMMDD-HHMM>_<height>.tar.lz4) with no stable/latest symlink and no JSON manifest, so it can't be resolved automatically; last manually verified 2026-09-30 (1.5GB, height 448617, generated 10:00 UTC)."
+    },
+    "content": {
+      "Installation Guide": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet",
+      "snapshot": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet/snap",
+      "update": "https://services.corenodehq.xyz/mainnet/gnoland-mainnet/update"
     }
   },
   {
